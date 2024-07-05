@@ -1,0 +1,85 @@
+main ideas:
+	compressed history 
+	prefetch across pages
+	adaptive throttle 
+
+drawbacks of previous techniques:
+	-complex prefetchers have limited prefetching depth.
+	-increasing depth of PC based delta prefetchers does not
+	    show significant performance benefits
+	-lookahead mechanism- high hardware complexity
+	-no knowledge of virtual memory
+
+
+intro:
+	signature stores access patterns ina compressed form
+	detects locality between two physical pages
+	signature path - throttling
+	purely based on memory access stream
+	
+motivation:
+	-huge storage overhead for storing complex patterns
+	-lookahead prefetching is essetial for compelx patterns
+	-stream throttling as prefetch depth depends upon applications
+		and stream specific
+	-access pattern which cross physical page boundaries are
+		difficult to exploit. per-page warmup times are more
+	-no temporal ordering detected
+
+Design overview:
+		lookahead mechanism.
+		a signature path is speculated using signature and deltas 
+			associated
+	
+Drawbacks: 
+many arithmatic operations increases critical path	
+divide table overhead
+random patterns are hard to detect, which are predicted better by BOP
+
+Method:
+
+1. Learning access patterns
+	signature stores the previous deltas
+	L2 cache access address is used to index ST.
+	signature is used to index into the PT to get the delta
+	per-delta confidence decides if the prefetch is done or not
+	If a new delta is encountered, the delta with least confidence is replaced
+	Signatures corresponds to physical pages
+	patterns are common (global) to all pages - reduces redundancy
+	new signature is calculated using the equation and replaces the old one
+	
+2. Prefetching
+	after updating ST, SPP again accesses PT to prefetch and predict following deltas
+	prefetching is done if path confidence is more than the threshold
+	the next lookahead is also done by PT by calculating a speculative signature
+		using the current signature and the delta
+	this lookahead continues till paht confidence falls below threshold
+	another threshold is used to decide where the prefetch will be filled
+	a global scaling factor alpha is used to throttle prefetching depth
+	prefetching is also throttled down when read queue has not enough resources
+
+3. Page boundaries
+	GHR stores delta patterns that crosses page boundaries
+	When a page is accessed first time(no signature) it's offset is searched in the
+		GHR and if found prefetching is started.
+	A new signature is generated which means if the page is accessed later, no 
+		need of using GHR even if page boundary is crossed
+	Does not suffer from long per-page warm-up
+	
+4. Prefetch filter	
+	used to avoid re-prefetching
+
+
+evaluation:
+
+
+
+
+
+
+
+
+
+
+		
+	

@@ -1,0 +1,3411 @@
+Initialize SIGNATURE TABLE
+ST_SET: 1
+ST_WAY: 256
+ST_TAG_BIT: 16
+ST_TAG_MASK: ffff
+
+Initialize PATTERN TABLE
+PT_SET: 512
+PT_WAY: 4
+SIG_DELTA_BIT: 7
+C_SIG_BIT: 4
+C_DELTA_BIT: 4
+
+Initialize PREFETCH FILTER
+FILTER_SET: 1024
+
+Initialize PERCEPTRON
+PERC_ENTRIES: 4096
+PERC_FEATURES: 9
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 50000000
+Simulation Instructions: 200000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Secure Berti: OFF
+Berti: OFF
+Berti Fill: OFF
+On commit prefetching: OFF
+L2 LLC Bypass speculative loads: OFF
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 6400 MT/s
+CPU 0 runs /home/sumon/secure_berti/Berti_Baseline/../../traces/spec/607.cactuBSSN_s-3477B.champsimtrace.xz
+.xz
+BTB has LRU replacement policy
+ITLB has LRU replacement policy
+DTLB has LRU replacement policy
+STLB has LRU replacement policy
+L1I has LRU replacement policy
+L1D has LRU replacement policy
+PERC_ENTRIES: 4096
+L2C has LRU replacement policy
+LLC has LRU replacement policy
+Heartbeat CPU 0 instructions: 10000000 cycles: 3671326 heartbeat IPC: 2.72381 cumulative IPC: 2.72381 (Simulation time: 0 hr 0 min 27 sec) 
+Heartbeat CPU 0 instructions: 20000003 cycles: 7341570 heartbeat IPC: 2.72462 cumulative IPC: 2.72421 (Simulation time: 0 hr 0 min 56 sec) 
+Heartbeat CPU 0 instructions: 30000000 cycles: 11011466 heartbeat IPC: 2.72487 cumulative IPC: 2.72443 (Simulation time: 0 hr 1 min 25 sec) 
+Heartbeat CPU 0 instructions: 40000003 cycles: 14681398 heartbeat IPC: 2.72485 cumulative IPC: 2.72454 (Simulation time: 0 hr 2 min 12 sec) 
+Heartbeat CPU 0 instructions: 50000000 cycles: 18353426 heartbeat IPC: 2.72329 cumulative IPC: 2.72429 (Simulation time: 0 hr 2 min 49 sec) 
+
+Warmup complete CPU 0 instructions: 50000004 cycles: 18353427 (Simulation time: 0 hr 2 min 49 sec) 
+
+Heartbeat CPU 0 instructions: 60000000 cycles: 29358761 heartbeat IPC: 0.90865 cumulative IPC: 0.90865 (Simulation time: 0 hr 3 min 24 sec) 
+Heartbeat CPU 0 instructions: 70000001 cycles: 40365336 heartbeat IPC: 0.908548 cumulative IPC: 0.908599 (Simulation time: 0 hr 3 min 59 sec) 
+Heartbeat CPU 0 instructions: 80000001 cycles: 51367727 heartbeat IPC: 0.908893 cumulative IPC: 0.908697 (Simulation time: 0 hr 4 min 35 sec) 
+Heartbeat CPU 0 instructions: 90000002 cycles: 62388256 heartbeat IPC: 0.907398 cumulative IPC: 0.908372 (Simulation time: 0 hr 5 min 11 sec) 
+Heartbeat CPU 0 instructions: 100000000 cycles: 73415537 heartbeat IPC: 0.906842 cumulative IPC: 0.908065 (Simulation time: 0 hr 5 min 48 sec) 
+Heartbeat CPU 0 instructions: 110000000 cycles: 84446462 heartbeat IPC: 0.906542 cumulative IPC: 0.907811 (Simulation time: 0 hr 6 min 35 sec) 
+Heartbeat CPU 0 instructions: 120000002 cycles: 95480816 heartbeat IPC: 0.906261 cumulative IPC: 0.907589 (Simulation time: 0 hr 7 min 19 sec) 
+Heartbeat CPU 0 instructions: 130000002 cycles: 106565517 heartbeat IPC: 0.902144 cumulative IPC: 0.906905 (Simulation time: 0 hr 7 min 56 sec) 
+Heartbeat CPU 0 instructions: 140000000 cycles: 117567547 heartbeat IPC: 0.908923 cumulative IPC: 0.907129 (Simulation time: 0 hr 8 min 32 sec) 
+Heartbeat CPU 0 instructions: 150000000 cycles: 128605110 heartbeat IPC: 0.905997 cumulative IPC: 0.907016 (Simulation time: 0 hr 9 min 7 sec) 
+Heartbeat CPU 0 instructions: 160000002 cycles: 139637477 heartbeat IPC: 0.906424 cumulative IPC: 0.906962 (Simulation time: 0 hr 9 min 42 sec) 
+Heartbeat CPU 0 instructions: 170000000 cycles: 150645435 heartbeat IPC: 0.908433 cumulative IPC: 0.907084 (Simulation time: 0 hr 10 min 17 sec) 
+Heartbeat CPU 0 instructions: 180000000 cycles: 161656581 heartbeat IPC: 0.908171 cumulative IPC: 0.907168 (Simulation time: 0 hr 10 min 52 sec) 
+Heartbeat CPU 0 instructions: 190000001 cycles: 172668697 heartbeat IPC: 0.908091 cumulative IPC: 0.907234 (Simulation time: 0 hr 11 min 23 sec) 
+Heartbeat CPU 0 instructions: 200000003 cycles: 183766748 heartbeat IPC: 0.901059 cumulative IPC: 0.906819 (Simulation time: 0 hr 11 min 50 sec) 
+Heartbeat CPU 0 instructions: 210000001 cycles: 194802645 heartbeat IPC: 0.906134 cumulative IPC: 0.906776 (Simulation time: 0 hr 12 min 18 sec) 
+Heartbeat CPU 0 instructions: 220000000 cycles: 205802087 heartbeat IPC: 0.909137 cumulative IPC: 0.906915 (Simulation time: 0 hr 12 min 46 sec) 
+Heartbeat CPU 0 instructions: 230000000 cycles: 216769238 heartbeat IPC: 0.911814 cumulative IPC: 0.907186 (Simulation time: 0 hr 13 min 12 sec) 
+Heartbeat CPU 0 instructions: 240000001 cycles: 227750018 heartbeat IPC: 0.910682 cumulative IPC: 0.907369 (Simulation time: 0 hr 13 min 38 sec) 
+Heartbeat CPU 0 instructions: 250000001 cycles: 238729414 heartbeat IPC: 0.910797 cumulative IPC: 0.90754 (Simulation time: 0 hr 14 min 3 sec) 
+Finished CPU 0 instructions: 200000001 cycles: 220375988 cumulative IPC: 0.90754 (Simulation time: 0 hr 14 min 3 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.90754 instructions: 200000001 cycles: 220375988
+ITLB TOTAL     ACCESS:   27857905  HIT:   27857905  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+ITLB Test counter:          0
+ITLB LOAD TRANSLATION ACCESS:   27857905  HIT:   27857905  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+ITLB PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+ITLB USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+ITLB TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+ITLB COMMIT LATE PREFETCHES: 0 MISSED OPPORTUNITY: 0 LATE IN PQ: 0 UNCOVERED: 0
+ITLB COMMIT LATE MSHR PREFETCHES: 0
+ITLB MPKI TOTAL: 0 MSHR LATE: 0 PQ LATE: 0 COMMIT LATE: 0 MISSED OPPORTUNITY: 0 UNCOVERED: 0
+ITLB PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+ITLB AVERAGE MISS LATENCY: -nan cycles
+ITLB AVERAGE MISS LATENCY LOAD: -nan cycles
+ITLB AVERAGE MISS LATENCY PREFETCH: -nan cycles
+ITLB AVERAGE MSHR OCCUPANCY: 0
+ITLB MSHR FULL: 0
+ITLB RQ	ACCESS:   34148749	FORWARD:          0	MERGED:    6290843	TO_CACHE:   27857906
+
+DTLB TOTAL     ACCESS:   60460180  HIT:   52887872  MISS:    7572308  HIT %:    87.4755  MISS %:    12.5245   MPKI: 37.8615
+DTLB Test counter:          0
+DTLB LOAD TRANSLATION ACCESS:   60460180  HIT:   52887872  MISS:    7572308  HIT %:    87.4755  MISS %:    12.5245   MPKI: 37.8615
+DTLB PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+DTLB USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+DTLB TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+DTLB COMMIT LATE PREFETCHES: 0 MISSED OPPORTUNITY: 0 LATE IN PQ: 0 UNCOVERED: 0
+DTLB COMMIT LATE MSHR PREFETCHES: 0
+DTLB MPKI TOTAL: 0 MSHR LATE: 0 PQ LATE: 0 COMMIT LATE: 0 MISSED OPPORTUNITY: 0 UNCOVERED: 0
+DTLB PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+DTLB AVERAGE MISS LATENCY: 9.95996 cycles
+DTLB AVERAGE MISS LATENCY LOAD: -nan cycles
+DTLB AVERAGE MISS LATENCY PREFETCH: -nan cycles
+DTLB AVERAGE MSHR OCCUPANCY: 0.754691
+DTLB MSHR FULL: 0.0204314
+DTLB RQ	ACCESS:   79264179	FORWARD:          0	MERGED:   18041008	TO_CACHE:   61223171
+
+STLB TOTAL     ACCESS:    7572308  HIT:    7564010  MISS:       8298  HIT %:    99.8904  MISS %:   0.109583   MPKI: 0.04149
+STLB Test counter:          0
+STLB LOAD TRANSLATION ACCESS:    7572308  HIT:    7564010  MISS:       8298  HIT %:    99.8904  MISS %:   0.109583   MPKI: 0.04149
+STLB PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+STLB USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+STLB TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+STLB COMMIT LATE PREFETCHES: 0 MISSED OPPORTUNITY: 0 LATE IN PQ: 0 UNCOVERED: 0
+STLB COMMIT LATE MSHR PREFETCHES: 0
+STLB MPKI TOTAL: 0 MSHR LATE: 0 PQ LATE: 0 COMMIT LATE: 0 MISSED OPPORTUNITY: 0 UNCOVERED: 0
+STLB PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+STLB AVERAGE MISS LATENCY: 537.753 cycles
+STLB AVERAGE MISS LATENCY LOAD: -nan cycles
+STLB AVERAGE MISS LATENCY PREFETCH: -nan cycles
+STLB AVERAGE MSHR OCCUPANCY: 0.0111307
+STLB MSHR FULL: 0
+STLB RQ	ACCESS:    7572308	FORWARD:          0	MERGED:          0	TO_CACHE:    7572308
+
+STLB Hit, L1D data hit: 0
+STLB Hit, L2C data hit: 0
+STLB Hit, LLC data hit: 0
+STLB Hit, LLC data miss: 0
+STLB STLB hints to L2: 0
+L1D TOTAL     ACCESS:   78840789  HIT:   64167493  MISS:   14673296  HIT %:    81.3887  MISS %:    18.6113   MPKI: 73.3665
+L1D Test counter:          0
+L1D LOAD      ACCESS:   63026149  HIT:   49558537  MISS:   13798156  HIT %:    78.6317  MISS %:    21.3683   MPKI: 67.3381
+L1D RFO       ACCESS:   15814640  HIT:   14608956  MISS:    1205684  HIT %:    92.3762  MISS %:    7.62385   MPKI: 6.02842
+L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1D USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+L1D TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+L1D COMMIT LATE PREFETCHES: 0 MISSED OPPORTUNITY: 0 LATE IN PQ: 0 UNCOVERED: 0
+L1D COMMIT LATE MSHR PREFETCHES: 0
+L1D MPKI TOTAL: 68.9908 MSHR LATE: 0 PQ LATE: 0 COMMIT LATE: 0 MISSED OPPORTUNITY: 0 UNCOVERED: 0
+L1D PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+L1D AVERAGE MISS LATENCY: 22.1655 cycles
+L1D AVERAGE MISS LATENCY LOAD: 16.5424 cycles
+L1D AVERAGE MISS LATENCY PREFETCH: -nan cycles
+L1D AVERAGE MSHR OCCUPANCY: 3.6517
+L1D MSHR FULL: 0.120429
+L1D RQ	ACCESS:   77407344	FORWARD:          0	MERGED:   14003379	TO_CACHE:   63356684
+L1D WQ	ACCESS:   16016005	FORWARD:      47281	MERGED:     108510	TO_CACHE:   15907495
+
+L1D UNIQUE REGIONS ACCESSED: 0
+L1D REGIONS CONFLICTS: 0
+L1D Cross Page Prefetch Requests: 0
+L1D Same Page Prefetch Requests: 0
+L1D ROI Sum of L1D PQ occupancy: 0
+L1D PREFETCHES PUSHED FROM L2C: 0
+a2c2d7: 1
+a09799: 1
+a2c423: 1
+a7f344: 1
+4004a0: 1
+8bbbc6: 1
+a087a3: 1
+a089b1: 1
+a089f1: 1
+a0977d: 1
+a088cd: 1
+a088e4: 1
+a2c42a: 1
+8d42db: 2
+8bbc22: 2
+8bbb6a: 2
+8bbae0: 2
+8bd0da: 2
+8d42ee: 2
+8bf56b: 3
+8bbb06: 3
+8bbc0b: 3
+8bbb81: 3
+8bda33: 4
+8bd07b: 4
+8bbcf7: 4
+8d424f: 5
+8bbb44: 6
+8bf1b6: 7
+8d4257: 7
+8d426d: 10
+8bf7dc: 11
+8d427b: 14
+8bd215: 17
+8bd091: 17
+8d4283: 18
+8d4291: 18
+8d429f: 20
+8bbe36: 26
+8d42be: 26
+8d1504: 43
+8be7c5: 54
+8bbcac: 56
+8bd4a5: 62
+8bdb82: 71
+8bf6ed: 80
+8bbdec: 91
+8bbd0e: 107
+8bee8f: 128
+8bdd68: 135
+8bdafc: 166
+8bef43: 172
+8be1b8: 179
+8be88b: 185
+8bd0a9: 187
+8bde49: 204
+8be513: 206
+8bebc4: 209
+8bcff1: 212
+8bf290: 213
+8bd77c: 223
+8d42cd: 363
+a259b5: 374
+8bf5ff: 386
+8bdc1e: 392
+8bbb30: 409
+8d42c5: 417
+8bd0f5: 439
+8bbd64: 474
+8bbbf4: 477
+8bbb98: 486
+8d3fcf: 524
+8bcffe: 540
+8bf9d6: 543
+8bf9c0: 550
+8bbcd1: 559
+8bbcba: 568
+8d2790: 568
+8bbd29: 584
+8bd051: 633
+8bd23e: 633
+8bcfd6: 635
+8bd0c9: 652
+8bd09b: 654
+8bf06c: 695
+8bcfab: 722
+8bd43a: 731
+8bf10d: 948
+8bd0fa: 1031
+8bdf9c: 1107
+8bd185: 1114
+8bf471: 1135
+8bf3db: 1151
+8bed2c: 1165
+8bd172: 1192
+8bd230: 1196
+8bcfa6: 1278
+8be679: 1280
+8be713: 1307
+8be046: 1377
+8bedde: 1402
+8bea55: 1422
+8be378: 1448
+8bdcaf: 1479
+8be9b9: 1533
+8bdf03: 1540
+8be2d7: 1623
+8bd54a: 1659
+8bd8ba: 1676
+8bd201: 1704
+8bd134: 1715
+8bd971: 1758
+8bd557: 1761
+8be0ff: 1761
+8bf51c: 1818
+8bd47a: 1863
+8bd20f: 1935
+8bd0b9: 1969
+8bf247: 1970
+8be836: 1970
+8bddf7: 1970
+8bd3f1: 1970
+8bd72c: 1970
+8bdaac: 1970
+8be178: 1970
+8beb7b: 1970
+8beef2: 1970
+8be4c3: 1970
+8be8ac: 2073
+8be534: 2073
+8bd117: 2073
+8bd45c: 2073
+8bebe5: 2073
+8bef65: 2073
+8bf2ab: 2073
+8bde6b: 2073
+8bd79e: 2073
+8bdb16: 2073
+8be1da: 2073
+8bd447: 2075
+8bd789: 2075
+8be1c6: 2075
+8be520: 2075
+8bde57: 2075
+8bdb01: 2075
+8bef50: 2075
+8be898: 2075
+8bf296: 2075
+8bebd1: 2075
+8bd102: 2075
+8be3a7: 2076
+8bd62b: 2076
+8bf13c: 2076
+8be075: 2084
+8be0ab: 2087
+8be3df: 2087
+8bd30a: 2087
+8bdd14: 2087
+8bee3b: 2087
+8be76f: 2087
+8beaa7: 2087
+8bf4ce: 2087
+8bd9df: 2087
+8bd661: 2087
+8bf16a: 2087
+8bee05: 2090
+8bdcde: 2110
+8bea78: 2147
+8bf262: 2177
+8bef0d: 2206
+8bd9a9: 2240
+8bd2e5: 2249
+8bf4a0: 2321
+8bdff2: 2714
+8be674: 2796
+8bec86: 2850
+8be245: 2905
+8bf6b7: 2959
+8bde12: 2985
+8be64f: 3231
+8bf42c: 3293
+8beb97: 3310
+8bed8a: 3378
+8be6d3: 3406
+8bf3b1: 3469
+8bed02: 3527
+8be328: 3539
+8be18e: 3591
+8bea0a: 3606
+8bd285: 3648
+8bd5c4: 3650
+8bf926: 3703
+8bd40c: 3719
+8be2ba: 3808
+8be98f: 3819
+8be73e: 3827
+8bfb29: 3896
+8be856: 3954
+8bd7ba: 4019
+8bd0ce: 4029
+8bd1f2: 4030
+8bf042: 4115
+8bd53b: 4125
+8bdbfa: 4151
+8bf791: 4156
+8bd8ab: 4195
+8bf2c4: 4197
+8bde83: 4200
+8bdb2e: 4221
+8be8c4: 4221
+8be551: 4225
+8be4de: 4232
+8be1f2: 4240
+8bebfe: 4261
+8bef7d: 4262
+8bdf7e: 4277
+8bd926: 4280
+8bd1fc: 4299
+8bd8b5: 4300
+8bdf97: 4456
+8bd075: 4463
+8bd096: 4463
+8bd269: 4464
+8bed6e: 4464
+8bea4e: 4464
+8be704: 4464
+8be30d: 4464
+8bd3d8: 4464
+8be6b8: 4464
+8bdbec: 4464
+8bdca0: 4464
+8bf3a3: 4464
+8bd716: 4464
+8bf0ab: 4464
+8bd1e4: 4464
+8bd8a5: 4464
+8bf03c: 4464
+8be369: 4464
+8be037: 4464
+8bdfd7: 4464
+8bf0fe: 4464
+8bedcf: 4464
+8bdc4f: 4464
+8bd962: 4464
+8bf462: 4464
+8becf4: 4464
+8be981: 4464
+8bda82: 4464
+8bd70a: 4464
+8bd08a: 4464
+8bd060: 4464
+8bda8e: 4464
+8bd90a: 4464
+8bd42e: 4464
+8beedb: 4464
+8bd3cc: 4464
+8be641: 4464
+8bddd9: 4464
+8bf0b7: 4464
+8be9ef: 4464
+8bddf2: 4464
+8bd545: 4464
+8bdc5b: 4464
+8bf411: 4464
+8beb63: 4464
+8bd727: 4464
+8bddcd: 4464
+8be157: 4464
+8be2ac: 4464
+8bd5a9: 4464
+8bd3ec: 4464
+8be818: 4464
+8be4a5: 4464
+8bd550: 4464
+8bf067: 4464
+8bd52d: 4464
+8bdf70: 4464
+8bf229: 4464
+8beecf: 4465
+8be49e: 4465
+8bf21d: 4465
+8beb75: 4465
+8beb57: 4465
+8beeec: 4465
+8be831: 4465
+8be80c: 4465
+8be150: 4465
+8be173: 4466
+8bdac7: 4468
+8bdaa7: 4473
+8be4be: 4478
+8bdc19: 4479
+8bed27: 4483
+8bf3d6: 4485
+8bf860: 4505
+8bf808: 4511
+8be697: 4520
+8bf678: 4540
+8bf550: 4541
+8bd0b1: 4563
+8bef21: 4573
+8be008: 4573
+8be8b3: 4573
+8bdb9d: 4573
+8bd4e0: 4573
+8bd11e: 4573
+8bf4e3: 4573
+8bec09: 4573
+8be6e1: 4573
+8bf29c: 4573
+8bd9f4: 4573
+8be0c0: 4573
+8be55c: 4573
+8be19b: 4573
+8beab8: 4573
+8bebec: 4573
+8bf43b: 4573
+8bef6c: 4573
+8bd75b: 4573
+8be4f2: 4573
+8bef56: 4573
+8be3f4: 4573
+8bd7c4: 4573
+8bdb07: 4573
+8bde8d: 4573
+8bf598: 4573
+8bde27: 4573
+8bdb1d: 4573
+8be785: 4573
+8bf26e: 4573
+8bebd6: 4573
+8bdd29: 4573
+8be86a: 4573
+8bee50: 4573
+8bd29e: 4573
+8bd78f: 4573
+8bd44c: 4573
+8bde72: 4573
+8be25f: 4573
+8bd93d: 4573
+8be33e: 4573
+8bd107: 4573
+8be1e1: 4573
+8be1cb: 4573
+8be930: 4573
+8bf633: 4573
+8bd7a5: 4573
+8bf2b2: 4573
+8bf2cf: 4573
+8bdadb: 4573
+8bf0cf: 4573
+8be525: 4573
+8bf17f: 4573
+8befee: 4573
+8bde5c: 4573
+8bd31b: 4573
+8beda1: 4573
+8bea20: 4573
+8bd463: 4573
+8bd5da: 4573
+8be89d: 4573
+8beba3: 4573
+8bd676: 4573
+8bd420: 4573
+8be53b: 4573
+8bdc72: 4573
+8be4e3: 4574
+8bf301: 4574
+8bef12: 4574
+8be93f: 4574
+8bf5a9: 4574
+8be85b: 4574
+8beb9c: 4574
+8bd74c: 4574
+8bf561: 4574
+8bd0d3: 4574
+8bf689: 4574
+8bd411: 4574
+8bec3b: 4574
+8bf267: 4574
+8bf193: 4574
+8beffd: 4574
+8bf644: 4574
+8bdbac: 4574
+8bd0e2: 4574
+8bde18: 4574
+8bdd3d: 4574
+8be58d: 4574
+8be194: 4574
+8be26e: 4574
+8bd4ef: 4574
+8bdec2: 4574
+8bdacc: 4574
+8bd7f5: 4574
+8bf876: 4582
+8bf34c: 4601
+8be9b4: 4684
+8bda08: 4758
+8be025: 4761
+8bd69a: 4791
+8bda1c: 4794
+8bd33f: 4811
+8bd747: 4814
+8bd2f7: 4839
+8bd959: 4843
+8be2d2: 4851
+8bf242: 4852
+8bd9bf: 4867
+8bd641: 4884
+8bdc8e: 4887
+8bd5ef: 4913
+8be3be: 4920
+8bf0ec: 4923
+8bd2b8: 5009
+8bd1c8: 5009
+8bea87: 5010
+8bdd55: 5073
+8be420: 5104
+8beadd: 5130
+8bee7c: 5150
+8be0ec: 5175
+8bea3c: 5219
+8be356: 5230
+8be7b2: 5245
+8bf727: 5254
+8be756: 5263
+8bd889: 5293
+8bd511: 5319
+8bee1b: 5378
+8bd686: 5388
+8bf4b6: 5392
+8bd32b: 5400
+8bf510: 5417
+8beacc: 5432
+8be08b: 5436
+8bdbce: 5437
+8be408: 5499
+8bedbd: 5511
+8bf450: 5569
+8bf1a3: 5604
+8be799: 5632
+8bee64: 5660
+8be623: 5661
+8bf4f7: 5745
+8be6f1: 5834
+8bf14a: 5848
+8bd485: 5913
+8be965: 5945
+8bdcf4: 6151
+8be290: 6166
+8be0d4: 6324
+8becd8: 6432
+8bd147: 6444
+8bdf52: 6935
+8d3fd8: 7046
+8cff36: 7073
+8d1547: 7093
+8d414c: 7098
+8d4199: 7112
+8bf73d: 7136
+8d41f1: 7346
+8d40f4: 7354
+8bd026: 7558
+8bf01e: 7660
+8bf387: 7746
+a25992: 7759
+8bd7e0: 8284
+8bf2eb: 8294
+8bec25: 8298
+8be573: 8301
+8bdea8: 8303
+8be8db: 8322
+8be209: 8328
+8bef94: 8335
+8bdb45: 8341
+8befc4: 8583
+8bf585: 8694
+8bf61f: 8786
+8bf201: 8796
+8bf665: 8858
+8bf53c: 8884
+8be906: 8928
+8bddb2: 8928
+8beb3b: 8928
+8bd4bf: 8928
+8be235: 8928
+8bd6ef: 8928
+8be482: 8928
+8bdb75: 8928
+8bcfe4: 8985
+8d3f9e: 9973
+8bf6ff: 10388
+400640: 10391
+a258eb: 10393
+8cff99: 10414
+8bd03a: 10431
+4005d0: 10433
+a258f7: 10434
+8d1891: 10443
+8d1d8f: 10451
+8d2343: 10460
+8d01a8: 10460
+8d19be: 10460
+8bf7d3: 10464
+8d3f58: 10475
+8d26c0: 10475
+9e6f9a: 10479
+8bf71e: 10480
+8bbe3e: 10482
+8d00bf: 10482
+8d155e: 10488
+a258e3: 10491
+8cf1f0: 10494
+8bfb6a: 10496
+a259ce: 18849
+8bf4c9: 26703
+8bf496: 26827
+8bd24d: 27033
+8bd2f2: 28107
+8bd33a: 28146
+8bf47e: 28170
+8bf165: 28271
+8bf3e6: 28285
+8bd2d0: 28427
+8bd695: 28547
+8bf132: 28556
+8bd63c: 28569
+8bd991: 28599
+8bdcc6: 28599
+8bd613: 28599
+8bf124: 28600
+8bf488: 28600
+8beded: 28600
+8be05d: 28600
+8bea5f: 28600
+8be72a: 28600
+8be38f: 28600
+8bdd50: 28605
+8bda17: 28605
+8be0e7: 28606
+8be7ac: 28606
+8bead7: 28606
+8bee77: 28606
+8bf50a: 28606
+8be41b: 28606
+8bf19e: 28606
+8bd243: 28608
+8bd987: 28610
+8bd2c5: 28610
+8bdcbc: 28610
+8bd609: 28610
+8be053: 28611
+8bede3: 28611
+8bea5a: 28611
+8be720: 28611
+8bf11a: 28611
+8be385: 28611
+8bd8e4: 28612
+8bdc29: 28612
+8bd583: 28612
+8bed37: 28613
+8be2e2: 28613
+8bdfa7: 28613
+8be684: 28613
+8bf077: 28613
+8be9c4: 28613
+8bdd0f: 28619
+8bd305: 28619
+8bd65c: 28619
+8bd9da: 28619
+8be769: 28620
+8be3d9: 28620
+8bd8ee: 28620
+8bdc2e: 28620
+8bee36: 28620
+8beaa2: 28620
+8bd58d: 28620
+8be0a6: 28620
+8be2ec: 28621
+8bdfb1: 28621
+8bed41: 28621
+8bf081: 28621
+8bf3f0: 28621
+8be9ce: 28621
+8be68e: 28621
+8bd2db: 28624
+8bdcd4: 28624
+8bd621: 28624
+8bd99f: 28624
+8be06b: 28625
+8bedfb: 28625
+8be39d: 28625
+8be739: 28625
+8bea6e: 28625
+8bd9ba: 28629
+8bdcef: 28629
+8bea81: 28630
+8be750: 28630
+8be3b9: 28630
+8bf4b1: 28630
+8be086: 28630
+8bf145: 28630
+8bee16: 28630
+a259a4: 29144
+8bd142: 33405
+8bd006: 33523
+8bcff9: 33547
+8bd3a2: 33642
+8bd3a7: 33645
+8bd480: 33647
+8bf1f7: 33651
+8be477: 33651
+8bd6e4: 33651
+8bdda7: 33651
+8be7f9: 33651
+8be13d: 33651
+8bda6f: 33651
+8beebc: 33651
+8beb31: 33651
+8bd6d9: 33657
+8bd7db: 33660
+8bdd9c: 33662
+8bda61: 33662
+8beb28: 33663
+8be46c: 33663
+8be12f: 33663
+8beeaf: 33663
+8be7eb: 33663
+8bf1ee: 33663
+8bdb40: 33664
+8bdea3: 33664
+8be204: 33665
+8be8d6: 33665
+8bef8f: 33665
+8bf2e6: 33665
+8be56e: 33665
+8bec20: 33665
+8befbb: 33794
+8bf573: 34550
+8bf60f: 35183
+8bf1e0: 35322
+8bbc9d: 35381
+8bef37: 35525
+8bdaf0: 35526
+8bd770: 35526
+8bde3d: 35532
+8bf284: 35533
+8be87f: 35533
+8be507: 35535
+8bf656: 35633
+8bebb8: 35650
+8be1b1: 35656
+8bf52c: 35732
+8bf1d0: 35764
+8be10c: 35764
+8bbcff: 35838
+8be7d2: 35860
+8bf1c3: 35883
+8bbd4b: 35926
+8bcfa0: 35937
+8bbcc2: 35988
+8bbd16: 35989
+8bbc8e: 35992
+8bbc7f: 36009
+8bd083: 36016
+8bbd31: 36028
+8be440: 36041
+8bbc6c: 36049
+8bcfbe: 36051
+8bf58a: 36054
+8bf5ca: 36071
+8bf527: 36079
+8bf5ae: 36089
+8bf5ef: 36093
+8bda40: 36101
+8bf6ac: 36101
+8bf54a: 36102
+8bf57b: 36105
+8bf59e: 36105
+8beafd: 36118
+8bf6da: 36119
+8bf6a7: 36126
+8be8fd: 36126
+8bf55b: 36132
+8bbcb4: 36134
+8be22b: 36135
+8bd4b6: 36136
+8bf2b9: 36136
+8bf6d5: 36136
+8bf69d: 36137
+8be44e: 36138
+8be45e: 36139
+8bdb6c: 36139
+8bd6cb: 36139
+8bbc66: 36140
+8bf6c5: 36141
+8bcfb0: 36141
+8bda4e: 36141
+8bd06e: 36141
+8beb1a: 36142
+8bf698: 36144
+8bbc57: 36144
+8bf5b8: 36145
+8bdd8e: 36145
+8bd400: 36146
+8bf5de: 36149
+8bf66a: 36149
+8bf68e: 36149
+8bf5cf: 36149
+8bdd7e: 36150
+8bd6bb: 36150
+8bbb72: 36150
+8bbb89: 36150
+8bd570: 36150
+8be11a: 36150
+8bdabb: 36150
+8bde79: 36150
+8bbbce: 36150
+8bbbe5: 36150
+8bd316: 36150
+8bbbfc: 36150
+8bbc2a: 36150
+8bd059: 36150
+8bd298: 36150
+8bf5f4: 36150
+8bd326: 36150
+8bd277: 36150
+8bdd70: 36150
+8bdc02: 36150
+8bd21a: 36150
+8bbbb7: 36150
+8bd3c0: 36150
+8bd7ac: 36150
+8bbc13: 36150
+8bd6b5: 36150
+8bd94f: 36150
+8bf63e: 36150
+8bd73b: 36150
+8bd5e4: 36150
+8bbb5b: 36150
+8bd264: 36150
+8bbc48: 36150
+8bd9ef: 36150
+8bdd24: 36150
+8bdc08: 36150
+8bdc55: 36150
+8bd562: 36150
+8bd5d5: 36150
+8bdd38: 36150
+8bd3c6: 36150
+8bdc6d: 36150
+8bd938: 36150
+8bd671: 36150
+8bdb24: 36150
+8bd8d1: 36150
+8bd2ad: 36150
+8bda03: 36150
+8bd918: 36150
+8bd227: 36150
+8bdc84: 36150
+8bd38e: 36150
+8bd905: 36150
+8bbc39: 36150
+8bbba0: 36150
+8bd5b7: 36150
+8bde06: 36150
+8bbcd9: 36150
+8bd8c0: 36150
+8bd681: 36150
+8bbb4c: 36150
+8bdc4a: 36150
+8bd388: 36150
+8bd5a4: 36150
+8bf445: 36151
+8be187: 36151
+8bf3c8: 36151
+8be308: 36151
+8bf65b: 36151
+8bf67e: 36151
+8bf5c0: 36151
+8be666: 36151
+8bf607: 36151
+8bf62d: 36151
+8bed0c: 36151
+8be31b: 36151
+8be339: 36151
+8bf6cb: 36151
+8be0bb: 36151
+8be2c9: 36151
+8be542: 36151
+8beb8b: 36151
+8be348: 36151
+8bf0c9: 36151
+8bf4de: 36151
+8be6eb: 36151
+8be01a: 36151
+8be9ea: 36151
+8beab2: 36151
+8bdfd2: 36151
+8be999: 36151
+8be9fd: 36151
+8bea32: 36151
+8bed9c: 36151
+8bf059: 36151
+8bf0a6: 36151
+8bf0b1: 36151
+8be84a: 36151
+8bef73: 36151
+8bf41f: 36151
+8be9a6: 36151
+8be7d8: 36151
+8bebf3: 36151
+8beac7: 36151
+8bf256: 36151
+8be6dc: 36151
+8bf3bb: 36151
+8bf4f2: 36151
+8bef01: 36151
+8bedb3: 36151
+8bed7c: 36151
+8bee4b: 36151
+8bee97: 36151
+8bf18e: 36151
+8bed19: 36151
+8be403: 36151
+8bed69: 36151
+8be794: 36151
+8bf619: 36151
+8be2c4: 36151
+8be4d2: 36151
+8bf04c: 36151
+8bf17a: 36151
+8beb0a: 36151
+8bdf83: 36151
+8be3ef: 36151
+8be77f: 36151
+8bea1b: 36151
+8bee5f: 36151
+8be6c6: 36151
+8bf536: 36151
+8be6b3: 36151
+8be8ba: 36151
+8bdfe5: 36151
+8bdf89: 36151
+8bf5e4: 36151
+8bee9c: 36151
+8bf40c: 36151
+8bf0e1: 36151
+8be0cf: 36151
+8be659: 36151
+8be003: 36151
+8bf435: 36151
+8be1e8: 36151
+L1I TOTAL     ACCESS:   31198825  HIT:   25414394  MISS:    5784431  HIT %:    81.4595  MISS %:    18.5405   MPKI: 28.9222
+L1I Test counter:          0
+L1I LOAD      ACCESS:   31198825  HIT:   25414394  MISS:    8734353  HIT %:    81.4595  MISS %:    18.5405   MPKI: 28.9222
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+L1I TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+L1I COMMIT LATE PREFETCHES: 0 MISSED OPPORTUNITY: 0 LATE IN PQ: 0 UNCOVERED: 0
+L1I COMMIT LATE MSHR PREFETCHES: 0
+L1I MPKI TOTAL: 43.6718 MSHR LATE: 0 PQ LATE: 0 COMMIT LATE: 0 MISSED OPPORTUNITY: 0 UNCOVERED: 0
+L1I PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+L1I AVERAGE MISS LATENCY: 14.0732 cycles
+L1I AVERAGE MISS LATENCY LOAD: 14.0732 cycles
+L1I AVERAGE MISS LATENCY PREFETCH: -nan cycles
+L1I AVERAGE MSHR OCCUPANCY: 0.229767
+L1I MSHR FULL: 0
+L1I RQ	ACCESS:   47370622	FORWARD:          0	MERGED:   13221873	TO_CACHE:   34148749
+
+8d1d00: 1
+8d2c86: 1
+8d24c3: 1
+a67d72: 1
+a67cb0: 1
+8bf042: 1
+a090c0: 1
+a09942: 1
+8bf4c0: 1
+a09398: 1
+8be440: 1
+8cf4c8: 1
+a08fa8: 1
+a087c2: 1
+a2c482: 1
+8bba80: 1
+a08911: 1
+a7f344: 1
+8d2a45: 1
+a2c680: 1
+8bfb45: 1
+8d0c81: 1
+a08b00: 1
+8d2800: 1
+a09350: 1
+a08941: 1
+8d1b81: 1
+a2c502: 1
+a80f42: 1
+4004a0: 1
+8d1002: 1
+a093c5: 1
+a09200: 1
+8bf081: 1
+a08802: 1
+a08730: 1
+a08c95: 1
+9ebbc8: 1
+9ebbb0: 1
+a09282: 1
+8bbbc6: 1
+a092c3: 1
+a091e9: 1
+a091a1: 1
+a09140: 1
+9e6f83: 1
+a09081: 1
+a09706: 1
+8d3406: 1
+a09313: 1
+8d0688: 1
+8d27c4: 1
+a09000: 1
+8d26c0: 1
+8bd4c4: 1
+8d4303: 1
+a08740: 1
+8d1f41: 1
+a25bd8: 1
+8d10c6: 1
+8bf383: 1
+a08a01: 1
+a088b0: 1
+8d0cc3: 1
+a67cc2: 1
+a089c0: 1
+a2c4c1: 1
+a2c600: 1
+8d23c8: 1
+8d1d41: 1
+8d1bc1: 1
+8cf7c0: 1
+8bd742: 1
+8d00c8: 1
+8be0c0: 1
+8be385: 1
+8d0040: 1
+a0927e: 1
+8be785: 1
+8d0b80: 1
+8d20c3: 1
+8d34c2: 1
+8d1742: 1
+8d1c46: 1
+8d1702: 1
+8d1b01: 1
+8d2a04: 1
+a08842: 1
+8d0344: 1
+a08780: 1
+8d0803: 1
+a2c400: 1
+a2c581: 1
+8d0602: 1
+8bfb01: 1
+8d0d08: 1
+8d03c9: 1
+8d0d83: 1
+a08d01: 1
+8d2cc6: 1
+8beb82: 1
+8d3742: 1
+8be003: 1
+a09103: 1
+8d0c41: 1
+8d0b42: 1
+8d1446: 1
+8d1404: 1
+8bf6c1: 1
+8d1345: 1
+8d1101: 1
+8d1082: 1
+8d1041: 1
+8d0f44: 1
+8d3080: 1
+8d0d41: 1
+8d0bc1: 1
+8d2445: 1
+8bd0c0: 1
+8d0b08: 1
+a2c440: 1
+8d0a01: 1
+8d0744: 1
+8becc6: 1
+8d0583: 1
+8d0542: 1
+8d04c0: 1
+8d0483: 1
+a2c345: 1
+8d0440: 1
+8d17c6: 1
+8d1783: 1
+8d2580: 1
+8d2547: 1
+8be403: 1
+8d2380: 1
+8d2101: 1
+8d2042: 1
+8cfc41: 1
+8d2001: 1
+8d1d85: 1
+8bdc41: 1
+8d1cc3: 1
+8d1a48: 1
+8d0407: 1
+8bfa40: 1
+8d1a01: 1
+8bdb82: 1
+8cf600: 1
+8d1682: 1
+8bd803: 1
+8d1600: 1
+8bd781: 1
+8bfb82: 1
+8d1581: 1
+8d14c9: 1
+8d3340: 1
+8d3040: 1
+8d1804: 1
+a09925: 1
+8d07c8: 1
+a09b57: 1
+a09043: 1
+a097c0: 1
+8d1384: 1
+a09785: 1
+a08c71: 1
+a09741: 1
+9ecd80: 1
+a09b8f: 1
+a08b4a: 1
+a096c2: 1
+8d33c2: 1
+8bf808: 1
+a09b3a: 1
+9ebd42: 1
+8d1547: 1
+9ebc80: 1
+a09680: 1
+8d3380: 1
+8bf7c6: 1
+a0964c: 1
+8bef43: 1
+8d0704: 1
+8d0381: 1
+8d16c0: 1
+8d0107: 1
+8be3c4: 1
+8d0083: 1
+8d2403: 1
+a2c380: 1
+a09998: 1
+a08ce0: 1
+8cf806: 1
+a08a85: 1
+a2c301: 1
+8d2083: 1
+9ecd41: 1
+8d1b42: 1
+8cf741: 1
+9ecd03: 1
+9eccc0: 1
+9ecc81: 1
+8d06c0: 1
+a09610: 1
+9ecc40: 1
+8d13c2: 1
+8d37c3: 1
+a2c5c3: 1
+8d4040: 1
+a7f300: 1
+8be107: 1
+8d40c2: 1
+8bec81: 1
+8d4082: 1
+8bec40: 1
+8cfb03: 1
+8beb40: 1
+8beb02: 1
+8d2483: 1
+8d4105: 1
+8d3f46: 1
+8bd583: 1
+8d3803: 1
+8d3784: 1
+8d36c1: 1
+8d3701: 1
+8bd400: 1
+8d3680: 1
+8d3607: 1
+8be086: 1
+8bf0c1: 1
+8bbd80: 1
+8d0786: 1
+8bbd40: 1
+8cfb84: 1
+8bf003: 1
+8bbd05: 1
+8cfb41: 1
+8bbcc2: 1
+8bea41: 1
+8bbc85: 1
+8bdd84: 1
+8bbc48: 1
+9ebcc3: 1
+8bed82: 1
+8bbb81: 1
+8bbb30: 1
+8bbb40: 1
+8bed41: 1
+8d2783: 1
+8d2343: 1
+8d2608: 1
+a2c2c0: 1
+8d2d08: 1
+8d2c41: 1
+8d2bc1: 1
+8be700: 1
+8d2b48: 1
+8cf384: 1
+8be6c6: 1
+8d2740: 1
+8d2703: 1
+8be684: 1
+a2c542: 1
+a2c2a0: 1
+8d2681: 1
+a089a0: 1
+a08ac5: 1
+a088c2: 1
+8d0008: 1
+8cf680: 1
+8bf441: 1
+8d3585: 1
+8bea02: 1
+8be803: 1
+8be7c5: 1
+8d3542: 1
+8be744: 1
+8d3480: 1
+8d2b87: 1
+8cfd43: 1
+8d3440: 1
+8d3100: 1
+8d1486: 1
+8d30c2: 1
+8d3002: 1
+8d2f45: 1
+8d2d40: 1
+8bebc4: 1
+8cf481: 1
+8d0a45: 1
+8bdcc1: 1
+8cfa41: 1
+8bdbc4: 1
+8cf6c3: 1
+8bdb40: 1
+8bdb01: 1
+8bed02: 1
+8cf581: 1
+8bda40: 1
+8cf704: 1
+8bda03: 1
+8bfbc1: 1
+8bd7c0: 1
+8cf784: 1
+8cf542: 1
+8cf441: 1
+8bd006: 1
+8be600: 1
+8cf401: 1
+8cfd07: 1
+8bbae0: 1
+8be583: 1
+8be542: 1
+8be4c3: 1
+8be482: 1
+8d4000: 1
+8be344: 1
+8be046: 1
+8cff48: 1
+8cfd83: 1
+a08a58: 1
+8cfcc1: 1
+8bdf48: 1
+8bdd44: 1
+8d2b01: 1
+8bdd03: 1
+8bdc84: 1
+8cfa04: 1
+8cfc81: 1
+8cfbc2: 1
+8bd388: 1
+8bf580: 1
+8bd447: 1
+8bf541: 1
+8d2d82: 1
+8bf483: 1
+8bd480: 1
+8bf403: 1
+8bf3c0: 1
+8bd3c0: 1
+8bd681: 1
+8bf746: 1
+8bf347: 1
+8bd345: 1
+8d1c89: 1
+8bd102: 1
+8bd083: 1
+8bd043: 1
+8bf105: 1
+8bf607: 1
+8cf344: 1
+a09800: 1
+8bfa02: 1
+8bd6c1: 1
+8cf3c3: 1
+8bd540: 1
+8bf784: 1
+8bf708: 1
+8bf684: 1
+8bd701: 1
+8bd601: 1
+8be303: 2
+8d2300: 2
+8d1330: 2
+8d0301: 2
+8d3307: 2
+8bd305: 2
+8cf300: 2
+8bf301: 2
+8d2880: 36150
+8d22c0: 36150
+8d3141: 36150
+8d31c0: 36150
+4005d0: 36150
+8d1502: 36150
+8d3902: 36150
+8d2502: 36150
+8bd841: 36150
+8bd142: 36150
+8d41c5: 36150
+8d1949: 36150
+8d21c4: 36150
+8d19c6: 36150
+8d2186: 36150
+8d2205: 36150
+8d0981: 36150
+8bd884: 36150
+8d2284: 36150
+8d1143: 36150
+8d4283: 36150
+a18870: 36150
+8d25c0: 36150
+8d1903: 36150
+8d2842: 36150
+8d28c2: 36150
+8bd900: 36150
+a189c0: 36150
+9e7180: 36150
+8d2240: 36150
+8be240: 36150
+8d2902: 36150
+8bd9c5: 36150
+8d35c3: 36150
+8d11c2: 36150
+a18885: 36150
+8d3240: 36150
+8d3505: 36150
+8bd285: 36150
+8d42c5: 36150
+a189b0: 36150
+8d1f83: 36150
+8d3880: 36150
+8d09c5: 36150
+8be2c4: 36150
+8d2143: 36150
+8d1840: 36150
+8d39c2: 36150
+8d05c1: 36150
+8d2642: 36150
+8d1283: 36150
+8bd243: 36150
+8d1646: 36150
+8d4186: 36150
+8be143: 36150
+8d18c0: 36150
+8bdf83: 36150
+8bd180: 36150
+8d12c4: 36150
+9e7140: 36150
+8be1c6: 36150
+8d3943: 36150
+8d4241: 36150
+8be286: 36150
+8d1888: 36150
+8d0644: 36150
+8d3201: 36150
+8d2986: 36150
+8d0841: 36150
+8d1183: 36150
+8d08c3: 36150
+8d0903: 36150
+8d0943: 36150
+8d2942: 36150
+8bd5c4: 36150
+8bd641: 36150
+9e71d9: 36150
+8d15c2: 36150
+8d1203: 36150
+8bd8c0: 36150
+8d3642: 36150
+8d1241: 36150
+8bd943: 36150
+8bd987: 36150
+8be183: 36150
+8d0505: 36150
+8d32c4: 36150
+8d29c3: 36150
+8d2f81: 36150
+8d0888: 36150
+8d3280: 36150
+8bd2c5: 36150
+8d02c1: 36150
+8bd201: 36150
+8d0f83: 36150
+8d3f80: 36150
+8bcfa0: 36150
+8d1981: 36150
+8be200: 36150
+a18510: 36150
+8d3189: 36150
+8d3842: 36150
+8bd507: 36150
+8d38c2: 36150
+8bd1c4: 36150
+8d4147: 36150
+8d3985: 36150
+8d4207: 36150
+8bf201: 36151
+8bef83: 36151
+8d0242: 36151
+8bf945: 36151
+8be902: 36151
+8cf981: 36151
+8bf9c0: 36151
+8bf1c3: 36151
+8cf882: 36151
+8cf207: 36151
+8bf883: 36151
+8be886: 36151
+8be5c1: 36151
+8cf150: 36151
+8be841: 36151
+8cf500: 36151
+8cf246: 36151
+8bf502: 36151
+8bf903: 36151
+8bf644: 36151
+8bf987: 36151
+8cf5c0: 36151
+8cf1c0: 36151
+8cf640: 36151
+8cf2c2: 36151
+8bf5c0: 36151
+8cf280: 36151
+8d0203: 36151
+8bf280: 36151
+8cff90: 36151
+8be945: 36151
+8bf8c1: 36151
+8be503: 36151
+8cf181: 36151
+8bf141: 36151
+8be981: 36151
+8d01c0: 36151
+8bf841: 36151
+8cf947: 36151
+8cf902: 36151
+8be641: 36151
+8bf2c4: 36151
+8cf9c5: 36151
+8cf8c7: 36151
+8be8c0: 36151
+8bf242: 36151
+8bf185: 36151
+8d0180: 36151
+8d0143: 36151
+8d0282: 36151
+8be9c4: 36151
+8cf840: 36151
+BTB TOTAL     ACCESS:    1169485  HIT:    1096958  MISS:      72527  HIT %:    93.7984  MISS %:    6.20162   MPKI: 0.362635
+BTB Test counter:          0
+BTB BRANCH_DIRECT_JUMP	ACCESS:     217104  HIT:     217073  MISS:         31
+BTB BRANCH_INDIRECT	ACCESS:      36158  HIT:      36156  MISS:          2
+BTB BRANCH_CONDITIONAL	ACCESS:     482257  HIT:     482171  MISS:         86
+BTB BRANCH_DIRECT_CALL	ACCESS:     216983  HIT:     216939  MISS:         44
+BTB BRANCH_INDIRECT_CALL	ACCESS:          0  HIT:          0  MISS:          0
+BTB BRANCH_RETURN	ACCESS:     216983  HIT:     144619  MISS:      72364
+BTB BRANCH_OTHER ACCESS:          0  HIT:          0  MISS:          0
+
+L2C TOTAL     ACCESS:   32755417  HIT:   31030913  MISS:    1724504  HIT %:    94.7352  MISS %:    5.26479   MPKI: 8.62252
+L2C Test counter:          0
+L2C LOAD      ACCESS:   19250042  HIT:   19144793  MISS:     105249  HIT %:    99.4533  MISS %:   0.546747   MPKI: 0.526245
+L2C DATA LOAD MPKI: 0.5239
+L2C INSTRUCTION LOAD MPKI: 0.002345
+L2C RFO       ACCESS:    1204334  HIT:    1087114  MISS:     117220  HIT %:    90.2668  MISS %:    9.73318   MPKI: 0.5861
+L2C PREFETCH  ACCESS:   10987965  HIT:    9498466  MISS:    1489499  HIT %:    86.4443  MISS %:    13.5557   MPKI: 7.44749
+L2C DATA PREFETCH MPKI: 7.44749
+L2C INSTRUCTION PREFETCH MPKI: 0
+L2C WRITEBACK ACCESS:    1300521  HIT:    1300243  MISS:        278  HIT %:    99.9786  MISS %:   0.021376   MPKI: 0.00139
+L2C LOAD TRANSLATION ACCESS:      12555  HIT:        297  MISS:      12258  HIT %:    2.36559  MISS %:    97.6344   MPKI: 0.06129
+L2C PREFETCH  REQUESTED:   11249695  ISSUED:   11178428  USEFUL:    1080118  USELESS:     408830
+L2C USEFUL LOAD PREFETCHES:    1080118 PREFETCH ISSUED TO LOWER LEVEL:    1635488  ACCURACY: 66.0426
+L2C TIMELY PREFETCHES:    1080118 LATE PREFETCHES: 5120 DROPPED PREFETCHES: 0
+L2C COMMIT LATE PREFETCHES: 0 MISSED OPPORTUNITY: 0 LATE IN PQ: 0 UNCOVERED: 0
+L2C COMMIT LATE MSHR PREFETCHES: 0
+L2C MPKI TOTAL: 0.526245 MSHR LATE: 0.0256 PQ LATE: 0 COMMIT LATE: 0 MISSED OPPORTUNITY: 0 UNCOVERED: 0
+L2C PREFETCHES SAME FILL-ORIGIN LEVEL: 1494619 DIFFERENT FILL-ORIGIN LEVEL: 140869
+L2C AVERAGE MISS LATENCY: 119.662 cycles
+L2C AVERAGE MISS LATENCY LOAD: 132.336 cycles
+L2C AVERAGE MISS LATENCY PREFETCH: 72.1918 cycles
+L2C AVERAGE MSHR OCCUPANCY: 1.27327
+L2C MSHR FULL: 0.000101183
+L2C RQ	ACCESS:   20470282	FORWARD:          0	MERGED:          0	TO_CACHE:   20466931
+L2C WQ	ACCESS:    1300521	FORWARD:       3559	MERGED:          0	TO_CACHE:    1300521
+L2C PQ	ACCESS:   11178428	FORWARD:          0	MERGED:      22712	TO_CACHE:   11155508
+
+L2C Instructions Evicting Data 447
+L2C Translations Evicting Data 12165
+L2C Data Evicting Data 1698866
+L2C Instructions Evicting Instructions 20
+L2C Translations Evicting Instructions 6
+L2C Data Evicting Instructions 443
+L2C Instructions Evicting Translations 2
+L2C Translations Evicting Translations 87
+L2C Data Evicting Translations 12190
+L2C Dense regions hint from L2: 0
+8d2703: 1
+9ecd41: 1
+a2c2d7: 1
+a2c502: 1
+a09081: 1
+8bf16a: 1
+8be3df: 1
+8d0c81: 1
+8d3680: 1
+a2c4c1: 1
+a08c71: 1
+8d2783: 1
+8bdd84: 1
+8d0008: 1
+8d1002: 1
+8d3406: 1
+a09140: 1
+8d23c8: 1
+8bd31b: 1
+a091e9: 1
+8beb82: 1
+8d2c41: 1
+8cf600: 1
+a2c345: 1
+8d0483: 1
+8d1d85: 1
+8bdc41: 1
+8d14c9: 1
+8d1702: 1
+8d0583: 1
+8d2547: 1
+8d3585: 1
+8bdcc1: 1
+8d4082: 1
+a093c5: 1
+a0977d: 1
+a67cb0: 1
+a088e4: 1
+a2c2c0: 1
+a2c400: 1
+a2c440: 1
+8bdbc4: 1
+8d0b08: 1
+a2c42a: 1
+a08911: 1
+8d3742: 1
+8cf741: 1
+a2c482: 1
+a089c0: 1
+8d2c86: 1
+a2c680: 1
+a09000: 1
+a09043: 1
+8d0344: 1
+8d3340: 1
+8bd0c0: 1
+8bfbc1: 1
+9ecd03: 1
+8d2483: 1
+8cfa04: 1
+8d4000: 1
+a08780: 1
+a08730: 1
+a08a85: 1
+8d2681: 1
+8bd601: 1
+8bf3d6: 1
+a088c2: 1
+a09799: 1
+8d26c0: 1
+8be856: 1
+8d1b81: 1
+9ebbb0: 1
+8bbbc6: 1
+8bea20: 1
+8d0d83: 1
+a092c3: 1
+8cf401: 1
+a258e3: 1
+8bdf48: 1
+8bd102: 1
+9ebd42: 1
+8bbc85: 1
+8d3100: 1
+8cf784: 1
+9ebc80: 1
+8bea41: 1
+a088b0: 1
+a67d72: 1
+8d0b42: 1
+8d1b42: 1
+8bba80: 1
+8d1d41: 1
+8bdb01: 1
+8d0a45: 1
+8bebc4: 1
+8bf678: 1
+8d0cc3: 1
+a09282: 1
+8bed02: 1
+8d1c46: 1
+a67cc2: 1
+8d0381: 1
+8d1404: 1
+8beaa7: 1
+8d1a48: 1
+8cfbc2: 1
+8d0d41: 1
+8bed82: 1
+a08ac5: 1
+8bf580: 1
+8d1345: 1
+8d0107: 1
+8d1783: 1
+8d0c41: 1
+8d4207: 1
+a08fa8: 1
+a08802: 1
+8d1804: 1
+a0927e: 1
+a09680: 1
+8bf105: 1
+8be107: 1
+8be344: 1
+a08a01: 1
+8cf680: 1
+8bf042: 1
+8d3440: 1
+8cfd43: 1
+8d2a04: 1
+8bd0b1: 1
+8d3fd8: 1
+a09b57: 1
+a2c2a0: 1
+a08b00: 1
+8d2800: 1
+8d3480: 1
+8d2d82: 1
+8be744: 1
+8d0602: 1
+8d2608: 1
+8bf17f: 1
+8d0f44: 1
+8d20c3: 1
+8bbd40: 1
+8d2101: 1
+8d2380: 1
+8d34c2: 1
+8d2343: 1
+8d2042: 1
+8d2403: 1
+8d2445: 1
+8d3642: 1
+8d24c3: 1
+8d2580: 1
+8d0803: 1
+8d2b01: 1
+8d2b48: 1
+8bd803: 1
+8d1446: 1
+8d1581: 1
+8d1600: 1
+8bd781: 1
+8cf384: 1
+8d1682: 1
+8bfb01: 1
+8d2a45: 1
+8d2bc1: 1
+8d16c0: 1
+8d1742: 1
+8d1b01: 1
+8bd62b: 1
+8d1cc3: 1
+8d1d00: 1
+8d2001: 1
+8bd701: 1
+8bbb81: 1
+8bbd05: 1
+8bbd80: 1
+8bd043: 1
+8bd345: 1
+8bd447: 1
+8bd540: 1
+8bd6c1: 1
+9e6f9a: 1
+8bfa40: 1
+8bd742: 1
+8d0704: 1
+8bd7c0: 1
+8d2f45: 1
+8bdd03: 1
+8d4105: 1
+8bdd44: 1
+8bf6c1: 1
+8d2d08: 1
+8d1bc1: 1
+8d2d40: 1
+8d3002: 1
+8d3542: 1
+8d3607: 1
+8d3701: 1
+8d36c1: 1
+8d0786: 1
+8d1486: 1
+8d3784: 1
+8d4040: 1
+8d40c2: 1
+8d3080: 1
+8bbb40: 1
+8bbb30: 1
+a097c0: 1
+9ebcc3: 1
+a09b3a: 1
+8d3880: 1
+a09b8f: 1
+8d3040: 1
+8be7c5: 1
+a7f300: 1
+a09741: 1
+a0964c: 1
+8d1384: 1
+a09800: 1
+8bde72: 1
+a09998: 1
+a2c380: 1
+a09350: 1
+a09925: 1
+a089f1: 1
+9ebbc8: 1
+a09313: 1
+a08c95: 1
+8d0688: 1
+8bf2ab: 1
+8d27c4: 1
+a09103: 1
+a091a1: 1
+a2c542: 1
+a08b4a: 1
+a08740: 1
+a087c2: 1
+a08842: 1
+a09785: 1
+a2c581: 1
+a09610: 1
+8d06c0: 1
+8d0a01: 1
+8d0440: 1
+8d04c0: 1
+8cf3c3: 1
+8d0542: 1
+8d2b87: 1
+8bfb82: 1
+8d07c8: 1
+a2c5c3: 1
+8d0407: 1
+8d0b80: 1
+8d0bc1: 1
+8bef43: 1
+8d0d08: 1
+8d3380: 1
+8d1082: 1
+8d10c6: 1
+8d1101: 1
+a2c301: 1
+8d0744: 1
+9ecc40: 1
+8d13c2: 1
+8d37c3: 1
+9ecc81: 1
+9eccc0: 1
+9ecd80: 1
+a2c600: 1
+8d38c2: 1
+a08a58: 1
+a08ce0: 1
+a08d01: 1
+8d2cc6: 1
+8d0040: 1
+8d0083: 1
+8d03c9: 1
+8be4c3: 1
+8bf003: 1
+8bec40: 1
+8beb40: 1
+8bea02: 1
+8be803: 1
+8be700: 1
+8be600: 1
+8be583: 1
+8bf0c1: 1
+8be482: 1
+8be046: 1
+a090c0: 1
+a096c2: 1
+8d33c2: 1
+8bf383: 1
+8bfb45: 1
+a09942: 1
+8bf746: 1
+8cf542: 1
+8cf481: 1
+8cf441: 1
+8cf344: 1
+8bfa02: 1
+8bf7c6: 1
+8bf808: 1
+8bf784: 1
+8bef6c: 1
+8bf708: 1
+8bf684: 1
+8bf4c0: 1
+8bf441: 1
+8bf3c0: 1
+8bf347: 1
+8d4303: 1
+8cfd07: 1
+8beb02: 1
+8bec81: 1
+8d2740: 1
+8d17c6: 1
+8cf4c8: 1
+a09398: 1
+8d4241: 1
+8d30c2: 1
+8becc6: 1
+8d2083: 1
+8bd4c4: 1
+8bf483: 1
+8d00c8: 1
+8bf550: 1
+8be3c4: 1
+8d1f41: 1
+a09706: 1
+a089a0: 1
+8be6e1: 1
+8bf541: 1
+a2c423: 1
+8d3f46: 1
+a08941: 1
+a25bd8: 1
+8bf0cf: 1
+8d1041: 1
+8d3803: 1
+8cff99: 1
+8d1a01: 1
+8bdb82: 1
+8d1c89: 1
+a089b1: 1
+8bf403: 1
+a09200: 1
+a088cd: 1
+9e6f83: 1
+8be1e1: 1
+8beab8: 1
+8bf2cf: 1
+8cfa41: 1
+8bde12: 1
+8bdb6c: 1
+8cf581: 1
+8bea78: 1
+8bf34c: 1
+8be76f: 1
+8bf598: 1
+a80f42: 1
+8bd03a: 1
+8be33e: 1
+8be3a7: 1
+8be008: 1
+8bdd14: 1
+8d2790: 1
+8bdd29: 1
+8bd11e: 1
+8bd5da: 1
+8bd463: 1
+8bf633: 1
+8bd7a5: 1
+8cfc81: 1
+8cf6c3: 1
+8cf704: 1
+8cf7c0: 1
+8bec09: 1
+8cf806: 1
+8cfb03: 1
+8cfb41: 1
+8cfb84: 1
+8cfc41: 1
+8beda1: 1
+8bef65: 1
+8cfcc1: 1
+8cfd83: 1
+8bf13c: 1
+8bbae0: 1
+8cff48: 1
+8d2300: 2
+8d3307: 2
+a7f344: 2
+8cf150: 2
+8cf300: 2
+4004a0: 2
+8d1241: 2
+8be785: 2
+8bcfbe: 2
+8cf246: 2
+8d1330: 2
+8be303: 2
+8d35c3: 2
+8d3141: 2
+8d0301: 2
+8d3189: 2
+8be0c0: 2
+8d1143: 2
+8d414c: 2
+8d1183: 3
+8d1547: 3
+8be2d2: 3
+8cf1c0: 3
+8d3902: 3
+8be9b4: 3
+8d12c4: 3
+8d32c4: 3
+8bd285: 3
+8d3240: 3
+8d1283: 3
+8cf280: 3
+8cf181: 3
+4005d0: 3
+8d11c2: 3
+8d1203: 4
+8cf2c2: 4
+8bbc66: 4
+8d31c0: 4
+8d3201: 4
+8beb1a: 4
+8cf207: 4
+8d3280: 5
+8bf1d0: 5
+8be44e: 5
+8bf52c: 6
+8bf73d: 6
+8bbc7f: 6
+8be1b1: 7
+8beb0a: 7
+8bbc9d: 8
+8bf256: 9
+8bbc48: 9
+8beb8b: 9
+8bbc57: 10
+8bbb5b: 10
+8bd38e: 10
+8bd059: 10
+8bbcc2: 11
+8bd3c0: 11
+8be4d2: 11
+8bdd7e: 11
+8be697: 12
+8bdaf0: 12
+8d1504: 12
+8bbc39: 12
+8bd6bb: 13
+a258eb: 13
+8bbcb4: 13
+8be507: 13
+8bef37: 14
+8be11a: 14
+8bd083: 14
+8bf284: 14
+8bdabb: 14
+8be187: 14
+8bbc6c: 14
+8bde3d: 15
+8bde06: 15
+8bef01: 15
+8be84a: 16
+8bebb8: 16
+8beb31: 16
+8bf26e: 17
+8bd73b: 17
+8bcfb0: 17
+8bd770: 18
+8bd400: 18
+8bdda7: 19
+8bd0e2: 19
+8bee9c: 19
+8beba3: 20
+8bbc8e: 20
+8be7d8: 21
+8be87f: 22
+8bbe3e: 22
+8bd006: 22
+8bd388: 23
+8be4f2: 23
+8bde27: 24
+8bd6e4: 25
+8be477: 25
+8be13d: 26
+8bf1f7: 26
+8bbcff: 26
+8bd06e: 27
+8bbd4b: 27
+8bd511: 28
+8bd75b: 28
+8beebc: 31
+8bdd70: 31
+8be7d2: 31
+8bd420: 31
+8bd2b8: 31
+8bd3a7: 32
+8bda6f: 32
+8bda4e: 32
+8d00bf: 32
+8bde5c: 32
+8bd6b5: 33
+8beafd: 33
+8bd32b: 33
+8bbd16: 33
+8bbd31: 35
+8bda40: 35
+8bef8f: 35
+8bdadb: 35
+8bf607: 37
+8be58d: 37
+8be7f9: 38
+8bee97: 38
+8bebd6: 38
+8bd3c6: 38
+8bdec2: 38
+8be525: 38
+8bd78f: 39
+8bd4ef: 39
+8bf69d: 40
+8bd5ef: 40
+8be542: 42
+8bd1c8: 42
+8bcff9: 42
+8bf1ee: 43
+8bf2e6: 43
+8bf3bb: 44
+8be10c: 44
+8bd142: 44
+8be440: 45
+8be8d6: 46
+8bdea3: 46
+8bd3a2: 46
+8bdbac: 46
+8bd7ac: 47
+8bec20: 47
+8be46c: 47
+8bec3b: 47
+8bebf3: 48
+8bf29c: 48
+8be1e8: 48
+8bde79: 48
+a259b5: 48
+8bf2b9: 49
+8be56e: 49
+8beeaf: 50
+8bd185: 50
+8be204: 51
+8bd686: 51
+8bdd9c: 52
+8be356: 52
+8bef21: 52
+8bf301: 53
+8bd7db: 53
+8bdb24: 54
+8bf5c0: 54
+8be86a: 55
+8bef73: 55
+8bd6d9: 56
+8bd480: 56
+8bf1c3: 56
+8bf04c: 56
+8beb28: 56
+8be19b: 57
+8bda08: 58
+8bdb40: 60
+8bd0c9: 60
+8bf527: 61
+8be8ba: 61
+8be7eb: 62
+8bd7f5: 63
+8bda61: 63
+8bd227: 64
+8bcfab: 64
+8be12f: 64
+8be290: 66
+8bd026: 68
+8be0d4: 70
+8bdc8e: 70
+8bdd3d: 74
+8be999: 74
+8bd562: 75
+8bd959: 77
+8bee64: 78
+8be659: 78
+8be6f1: 79
+8bd107: 80
+8bd905: 82
+8be799: 83
+8bf4f7: 83
+8beffd: 85
+8bf561: 85
+8bdf83: 85
+8bdf52: 86
+8beacc: 87
+8bd264: 88
+8be6b3: 90
+8be9ea: 90
+8bd5a4: 91
+8bf387: 91
+8bd0fa: 92
+8be965: 92
+8bdc4a: 92
+8bd570: 93
+8be26e: 93
+8bd8c0: 94
+8bd889: 96
+8bf619: 96
+8bf450: 96
+8bed0c: 97
+8bedbd: 97
+8bdfd2: 98
+8be308: 99
+8be408: 100
+8be2c4: 100
+8be93f: 100
+8bd69a: 101
+8bd21a: 102
+8bf689: 102
+8bd2c5: 103
+8beadd: 103
+8bda1c: 105
+8bd8d1: 105
+8bf193: 106
+8bdc02: 106
+8bf40c: 108
+8bf4b6: 109
+8bed19: 111
+8bf5a9: 111
+8bf3c8: 111
+8be9a6: 112
+8becd8: 113
+8bdb07: 113
+8bd9bf: 113
+8bd243: 113
+8be2c9: 115
+8be7b2: 116
+8bd33f: 116
+8bed69: 116
+8be666: 116
+8bdf89: 118
+8bdc08: 119
+8be025: 119
+8bf059: 119
+8bd641: 120
+8bee7c: 121
+8bdd55: 121
+8bdbce: 123
+8bf0ec: 123
+8be756: 123
+8bf644: 124
+8bf14a: 125
+8be623: 125
+8bf5cf: 125
+8bd2db: 126
+8be1cb: 126
+8be0ec: 129
+8bf536: 129
+8be420: 132
+8bd277: 133
+8bf6ac: 134
+8bd2f7: 138
+8be720: 139
+8be89d: 140
+8bdcf4: 143
+8bea3c: 143
+8bdfa7: 144
+8bf0a6: 149
+8bed37: 151
+8bd609: 151
+8bd987: 151
+8bed7c: 151
+8bf510: 152
+8bd583: 155
+8be053: 155
+8bd918: 156
+8be08b: 156
+8bf081: 157
+8bdcbc: 158
+8be684: 159
+8bf077: 161
+8bef56: 162
+8bd172: 163
+8be9fd: 163
+8be9c4: 163
+8bee1b: 163
+8bf47e: 166
+8be31b: 167
+8bdfe5: 167
+8be385: 169
+8be6c6: 169
+8be9ce: 171
+8bdc29: 171
+8bf41f: 172
+8bf11a: 175
+8bdc55: 176
+8bd8e4: 177
+8bea5a: 177
+8bd147: 177
+8bd44c: 178
+8be2e2: 179
+8bd5b7: 179
+8bea87: 180
+8bed41: 180
+8bede3: 182
+8bf435: 184
+8bf3f0: 184
+8bf0c9: 185
+8bd7e0: 187
+8bf01e: 190
+8bf1a3: 190
+8bec25: 191
+8be72a: 191
+8bf124: 192
+8bd2d0: 195
+8bf0b1: 196
+8bd613: 198
+8bd485: 202
+8bdea8: 204
+8bd99f: 205
+8bea5f: 206
+8be38f: 206
+8bdfb1: 207
+8be39d: 208
+8bf54a: 208
+8be68e: 210
+8be06b: 211
+8bd8ee: 213
+8bf62d: 214
+8be2ec: 215
+8bd621: 215
+8be573: 216
+8be3be: 216
+8bed9c: 219
+8bf3e6: 220
+8bdb45: 221
+8be05d: 222
+8bdcd4: 222
+8bd991: 222
+8bea6e: 223
+8bdc2e: 227
+8bf2eb: 227
+8be739: 229
+8be8db: 229
+8be77f: 231
+8bd298: 231
+8be003: 233
+8bf132: 236
+8bf6cb: 236
+8bee4b: 237
+8bd5d5: 238
+8bf4de: 238
+8bd9ef: 238
+8bedfb: 239
+a25992: 241
+8bdcc6: 242
+8bea1b: 242
+8be3ef: 248
+8beded: 252
+8bef94: 253
+8bd938: 253
+8beab2: 255
+8bd24d: 260
+8bf17a: 261
+8be209: 261
+8bd58d: 265
+8bdd24: 266
+8bdc6d: 266
+8be6dc: 268
+8bd5e4: 272
+8bd671: 273
+8bee5f: 275
+8be0bb: 276
+8be339: 277
+8bf488: 288
+8bedb3: 289
+8be01a: 292
+8be6eb: 296
+8be348: 298
+8bf18e: 299
+8bf445: 300
+8beac7: 303
+8bf0e1: 307
+8be403: 307
+a259ce: 310
+8be794: 312
+8bee36: 313
+8beaa2: 313
+8bda03: 316
+8bd9da: 317
+8bdc84: 322
+8bd94f: 326
+8bf496: 329
+8bdd0f: 329
+8bea32: 337
+8be0a6: 343
+8bdd38: 345
+8bf4f2: 348
+8be0cf: 349
+8bf165: 352
+8be3d9: 352
+8bd316: 360
+8bbb89: 388
+8bd65c: 391
+8bf55b: 406
+8bbb72: 408
+8bd2ad: 415
+8bbba0: 424
+8bd326: 479
+8bd305: 489
+8bbbb7: 491
+8bd681: 499
+8bf4b1: 508
+8bbcd9: 510
+8bbbce: 521
+8bbbfc: 524
+8be769: 525
+8bf59e: 525
+8bbb4c: 557
+8bf145: 578
+8be750: 582
+8be086: 584
+8bea81: 585
+8bdcef: 618
+8bf58a: 619
+8bf50a: 624
+8bee16: 630
+8bd9ba: 643
+8be3b9: 646
+8bd2f2: 646
+8bf19e: 671
+8bf4c9: 685
+8bbc13: 699
+8bead7: 700
+8bee77: 720
+8bf57b: 742
+8bbbe5: 746
+8be41b: 760
+8bd63c: 775
+8be7ac: 786
+8bf5e4: 787
+8bbc2a: 818
+8bdd50: 833
+8bda17: 839
+8be0e7: 864
+8bd695: 903
+8bd33a: 907
+8bf5b8: 958
+8bf63e: 1025
+8bf6da: 1071
+8bf67e: 1104
+8bf5ae: 1115
+8bf66a: 1143
+8bf698: 1230
+8bf68e: 1232
+8bf5f4: 1452
+8bf65b: 1716
+8bf5ca: 1995
+8bf6a7: 2074
+8bf6c5: 2598
+a259a4: 2718
+8bf5de: 3022
+8bf6d5: 3062
+8bf5ef: 3759
+PSCL5 TOTAL     ACCESS:       8298  HIT:       8298  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+PSCL5 Test counter:          0
+PSCL5 LOAD TRANSLATION ACCESS:       8298  HIT:       8298  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+PSCL5 PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+PSCL5 USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+PSCL5 TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+PSCL5 COMMIT LATE PREFETCHES: 0 MISSED OPPORTUNITY: 0 LATE IN PQ: 0 UNCOVERED: 0
+PSCL5 COMMIT LATE MSHR PREFETCHES: 0
+PSCL5 MPKI TOTAL: 0 MSHR LATE: 0 PQ LATE: 0 COMMIT LATE: 0 MISSED OPPORTUNITY: 0 UNCOVERED: 0
+PSCL5 PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+
+PSCL4 TOTAL     ACCESS:       8298  HIT:       8298  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+PSCL4 Test counter:          0
+PSCL4 LOAD TRANSLATION ACCESS:       8298  HIT:       8298  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+PSCL4 PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+PSCL4 USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+PSCL4 TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+PSCL4 COMMIT LATE PREFETCHES: 0 MISSED OPPORTUNITY: 0 LATE IN PQ: 0 UNCOVERED: 0
+PSCL4 COMMIT LATE MSHR PREFETCHES: 0
+PSCL4 MPKI TOTAL: 0 MSHR LATE: 0 PQ LATE: 0 COMMIT LATE: 0 MISSED OPPORTUNITY: 0 UNCOVERED: 0
+PSCL4 PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+
+PSCL3 TOTAL     ACCESS:       8286  HIT:       8281  MISS:          5  HIT %:    99.9397  MISS %:  0.0603427   MPKI: 2.5e-05
+PSCL3 Test counter:          0
+PSCL3 LOAD TRANSLATION ACCESS:       8286  HIT:       8281  MISS:          5  HIT %:    99.9397  MISS %:  0.0603427   MPKI: 2.5e-05
+PSCL3 PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+PSCL3 USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+PSCL3 TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+PSCL3 COMMIT LATE PREFETCHES: 0 MISSED OPPORTUNITY: 0 LATE IN PQ: 0 UNCOVERED: 0
+PSCL3 COMMIT LATE MSHR PREFETCHES: 0
+PSCL3 MPKI TOTAL: 0 MSHR LATE: 0 PQ LATE: 0 COMMIT LATE: 0 MISSED OPPORTUNITY: 0 UNCOVERED: 0
+PSCL3 PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+
+PSCL2 TOTAL     ACCESS:       8298  HIT:       4037  MISS:       4261  HIT %:    48.6503  MISS %:    51.3497   MPKI: 0.021305
+PSCL2 Test counter:          0
+PSCL2 LOAD TRANSLATION ACCESS:       8298  HIT:       4037  MISS:       4261  HIT %:    48.6503  MISS %:    51.3497   MPKI: 0.021305
+PSCL2 PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+PSCL2 USEFUL LOAD PREFETCHES:          0 PREFETCH ISSUED TO LOWER LEVEL:          0  ACCURACY: -nan
+PSCL2 TIMELY PREFETCHES:          0 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+PSCL2 COMMIT LATE PREFETCHES: 0 MISSED OPPORTUNITY: 0 LATE IN PQ: 0 UNCOVERED: 0
+PSCL2 COMMIT LATE MSHR PREFETCHES: 0
+PSCL2 MPKI TOTAL: 0 MSHR LATE: 0 PQ LATE: 0 COMMIT LATE: 0 MISSED OPPORTUNITY: 0 UNCOVERED: 0
+PSCL2 PREFETCHES SAME FILL-ORIGIN LEVEL: 0 DIFFERENT FILL-ORIGIN LEVEL: 0
+
+LLC TOTAL     ACCESS:    1982828  HIT:    1451783  MISS:     531045  HIT %:    73.2178  MISS %:    26.7822   MPKI: 2.65522
+LLC Test counter:          0
+LLC LOAD      ACCESS:     100129  HIT:      49819  MISS:      50310  HIT %:    49.7548  MISS %:    50.2452   MPKI: 0.25155
+LLC RFO       ACCESS:     117197  HIT:        125  MISS:     117072  HIT %:   0.106658  MISS %:    99.8933   MPKI: 0.58536
+LLC PREFETCH  ACCESS:    1635480  HIT:    1273040  MISS:     362440  HIT %:    77.8389  MISS %:    22.1611   MPKI: 1.8122
+LLC WRITEBACK ACCESS:     117764  HIT:     117601  MISS:        163  HIT %:    99.8616  MISS %:   0.138412   MPKI: 0.000815
+LLC LOAD TRANSLATION ACCESS:      12258  HIT:      11198  MISS:       1060  HIT %:    91.3526  MISS %:    8.64741   MPKI: 0.0053
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:      33376  USELESS:     329143
+LLC USEFUL LOAD PREFETCHES:      33376 PREFETCH ISSUED TO LOWER LEVEL:     362440  ACCURACY: 9.2087
+LLC TIMELY PREFETCHES:      33376 LATE PREFETCHES: 0 DROPPED PREFETCHES: 0
+LLC COMMIT LATE PREFETCHES: 0 MISSED OPPORTUNITY: 0 LATE IN PQ: 0 UNCOVERED: 0
+LLC COMMIT LATE MSHR PREFETCHES: 0
+LLC MPKI TOTAL: 0.25155 MSHR LATE: 0 PQ LATE: 0 COMMIT LATE: 0 MISSED OPPORTUNITY: 0 UNCOVERED: 0
+LLC PREFETCHES SAME FILL-ORIGIN LEVEL: 26500 DIFFERENT FILL-ORIGIN LEVEL: 0
+LLC AVERAGE MISS LATENCY: 299.991 cycles
+LLC AVERAGE MISS LATENCY LOAD: 210.985 cycles
+LLC AVERAGE MISS LATENCY PREFETCH: 186.813 cycles
+LLC AVERAGE MSHR OCCUPANCY: 6.42124
+LLC MSHR FULL: 0
+LLC RQ	ACCESS:     229607	FORWARD:          0	MERGED:          0	TO_CACHE:     229584
+LLC WQ	ACCESS:     117764	FORWARD:         23	MERGED:          0	TO_CACHE:     117764
+LLC PQ	ACCESS:    1635488	FORWARD:          0	MERGED:          1	TO_CACHE:    1635487
+
+LLC Dense regions hint to LLC: 0
+8bd4c4: 1
+8bd043: 1
+a258e3: 1
+8bd102: 1
+8bd345: 1
+8bf746: 1
+8bbc6c: 1
+a08911: 1
+8bd3c0: 1
+8d1504: 1
+8bd447: 1
+8bebb8: 1
+8d3803: 1
+8cf207: 1
+8bda4e: 1
+8bd540: 1
+8bd6c1: 1
+8bd701: 1
+8be2ec: 1
+8bfa40: 1
+8bd742: 1
+8be999: 1
+a7f300: 1
+8bcff9: 1
+8d3f46: 1
+8d4040: 1
+8cfb03: 1
+8bdcc1: 1
+8d4082: 1
+8d40c2: 1
+8be3c4: 1
+8cf1c0: 1
+8d3080: 1
+8bbb40: 1
+8bbb30: 1
+9e6f9a: 1
+8bbb81: 1
+8d2083: 1
+8cfb41: 1
+8cfb84: 1
+8bbd80: 1
+8bf105: 1
+8be700: 1
+8bea02: 1
+8d3440: 1
+8be46c: 1
+8bea41: 1
+8beb40: 1
+8bec40: 1
+8bed82: 1
+8bf003: 1
+8bda6f: 1
+8bbc66: 1
+8d10c6: 1
+8bf347: 1
+8be56e: 1
+8bf3c0: 1
+a09200: 1
+8bf403: 1
+8bf483: 1
+8bd8d1: 1
+8bdd03: 1
+8d0704: 1
+8bd7c0: 1
+9ecd03: 1
+8bfbc1: 1
+8d0a45: 1
+8bdb01: 1
+8d2d82: 1
+8be38f: 1
+8d2f45: 1
+8be7c5: 1
+8beda1: 1
+8d4105: 1
+8bdd44: 1
+8bbd05: 1
+8be046: 1
+8d00c8: 1
+8be482: 1
+8be4c3: 1
+8be583: 1
+8cfa04: 1
+8bbd40: 1
+8d3542: 1
+8d1446: 1
+8d1f41: 1
+a25bd8: 1
+8be204: 1
+8bf383: 1
+8bbd31: 1
+8d03c9: 1
+8d4000: 1
+8d2101: 1
+a2c542: 1
+8bd5da: 1
+a08941: 1
+8cff99: 1
+a089a0: 1
+a088c2: 1
+8bf6c1: 1
+8d1486: 1
+8d3784: 1
+a80f42: 1
+8bed69: 1
+8bd0fa: 1
+8bdf48: 1
+8d36c1: 1
+8be0c0: 1
+8d3642: 1
+8d24c3: 1
+8bf132: 1
+a2c423: 1
+a2c2c0: 1
+a08730: 1
+8d414c: 1
+8d2b87: 1
+8d0786: 1
+a09103: 1
+8d2a04: 1
+8d0f44: 1
+8d20c3: 1
+8d3280: 1
+8d2740: 1
+9ebbc8: 1
+8d0688: 1
+a08c95: 1
+a08fa8: 1
+8bd277: 1
+8bf678: 1
+a087c2: 1
+a08802: 1
+a08842: 1
+8bdb24: 1
+8bcfab: 1
+8bdd84: 1
+8d1002: 1
+8bfb82: 1
+8d07c8: 1
+8bbb5b: 1
+a093c5: 1
+8d3701: 1
+a09741: 1
+8d3406: 1
+8d2483: 1
+8d0b80: 1
+8d2703: 1
+8bdd70: 1
+a2c680: 1
+a08a85: 1
+8be6b3: 1
+a090c0: 1
+8bdea3: 1
+8bf4c0: 1
+a09140: 1
+8be1e8: 1
+a091a1: 1
+8bec81: 1
+a09282: 1
+8bf3c8: 1
+a09925: 1
+a09350: 1
+a2c502: 1
+8be2c9: 1
+a09998: 1
+8bde72: 1
+8bdf89: 1
+a09680: 1
+8bcfb0: 1
+8be12f: 1
+8be2e2: 1
+8beb31: 1
+8be2c4: 1
+a08ce0: 1
+8bdda7: 1
+8bde79: 1
+8be44e: 1
+8be1e1: 1
+8be10c: 1
+8be6e1: 1
+8bf550: 1
+8be9a6: 1
+8be107: 1
+8be666: 1
+8be13d: 1
+8d1cc3: 1
+8bd62b: 1
+8bd6d9: 1
+8bd8c0: 1
+8bd6b5: 1
+8bd7a5: 1
+8bd7db: 1
+8bda61: 1
+8bf042: 1
+8be87f: 1
+8bdc55: 1
+8bbc85: 1
+8bdf83: 1
+8be7d2: 1
+8bf2e6: 1
+8be008: 1
+8bf0a6: 1
+8bf5cf: 1
+8bdfe5: 1
+8bf54a: 1
+8bbc9d: 1
+8bf1f7: 1
+8bd905: 1
+8bf059: 1
+8bf541: 1
+8bef6c: 1
+8bf2cf: 1
+8bf2b9: 1
+8bf41f: 1
+8bf0b1: 1
+8cf680: 1
+8bf5e4: 1
+8bf598: 1
+8bf40c: 1
+8bf62d: 1
+8bf633: 1
+8bf6cb: 1
+8bdb07: 1
+8bf04c: 1
+8bbd4b: 1
+8bdc41: 1
+8be7eb: 1
+8be7f9: 1
+8bbbc6: 1
+9ebbb0: 1
+8be8ba: 1
+8be8d6: 1
+8bec09: 1
+8bf077: 1
+8bf6ac: 1
+8bebf3: 1
+8cfa41: 1
+8bed7c: 1
+8d0c81: 1
+8beebc: 1
+8bee97: 1
+8bef73: 1
+8d23c8: 1
+8beeaf: 1
+9ebc80: 1
+8cf542: 1
+8cf581: 1
+8bee1b: 1
+8bdc02: 1
+8bef65: 1
+8cf6c3: 1
+8bd6bb: 1
+8cf704: 1
+8bd9bf: 1
+8cf4c8: 1
+8cf784: 1
+8d0d41: 1
+8cfbc2: 1
+8cfc81: 1
+8cfcc1: 1
+8bf0c1: 1
+8d4303: 1
+8cfd07: 1
+8cfd83: 1
+8bfb01: 1
+8d1203: 1
+8d1345: 1
+8bf580: 1
+8bf607: 1
+8bf684: 1
+8bf708: 1
+8bf784: 1
+8bd803: 1
+8d2a45: 1
+8cff48: 1
+a09942: 1
+8bfb45: 1
+8beaa7: 1
+8d1682: 1
+8cf384: 1
+8d0542: 1
+8cf3c3: 1
+8cf401: 1
+8d17c6: 1
+8bd21a: 1
+8bf3bb: 1
+8bbc7f: 1
+8bbc8e: 1
+8bd0b1: 1
+a09b3a: 1
+8bbd16: 1
+8bd38e: 1
+8bef43: 1
+8d0d08: 1
+8bbc57: 1
+a2c482: 1
+8cf741: 1
+8bd3a7: 1
+8d2608: 1
+8bd3c6: 1
+8bd5a4: 1
+8be11a: 1
+8bd570: 1
+8beb02: 1
+8bf284: 1
+8be744: 1
+8bed19: 1
+8bbae0: 1
+8bd03a: 1
+8d11c2: 1
+a09b8f: 1
+8d3880: 1
+8cf150: 1
+a09081: 1
+8beba3: 1
+8cf181: 1
+8bd0c0: 1
+8d1183: 1
+8be600: 1
+8cf246: 1
+8cf280: 1
+8d1283: 1
+8d12c4: 1
+8bbc39: 1
+a09610: 1
+a08ac5: 1
+a2c2d7: 1
+a2c600: 1
+9ecd41: 1
+8d1b42: 1
+8be3df: 1
+9eccc0: 1
+9ecc81: 1
+8d06c0: 1
+8d2800: 1
+8d0a01: 1
+a2c5c3: 1
+a08b4a: 1
+8d0cc3: 1
+a088b0: 1
+a089f1: 1
+8d1804: 1
+8bdc4a: 1
+8d0381: 1
+a2c400: 1
+8d0602: 1
+8bf619: 1
+8d04c0: 1
+8d0483: 1
+a2c345: 1
+8cf600: 1
+8bef8f: 1
+8d0407: 1
+a2c301: 1
+8d0344: 1
+a08780: 1
+8d16c0: 1
+8d0107: 1
+8d0083: 1
+8d0008: 1
+8bd227: 1
+a08b00: 1
+8bbcb4: 1
+8d1600: 1
+a088cd: 1
+9e6f83: 1
+8d2042: 1
+8cfc41: 1
+a089b1: 1
+8beb82: 1
+8cf481: 1
+8d2783: 1
+8d2c41: 1
+a67d72: 1
+8bf13c: 1
+a08a58: 1
+8d2380: 1
+8bd463: 1
+8d3100: 1
+8bd601: 1
+8bfa02: 1
+8d34c2: 1
+8d1241: 1
+8be9ea: 1
+a09b57: 1
+a09043: 1
+8d1bc1: 1
+8d2d40: 1
+a09800: 1
+a097c0: 1
+8d2343: 1
+8d0803: 1
+9ecd80: 1
+9ebd42: 1
+8bf7c6: 1
+a0964c: 1
+8bf1ee: 1
+8bd6e4: 1
+a091e9: 1
+a092c3: 1
+8d0c41: 1
+8d13c2: 1
+8d3742: 1
+a0977d: 1
+a2c42a: 1
+8d3607: 1
+8d3585: 1
+8bf441: 1
+8d3480: 1
+8bdd14: 1
+8d37c3: 1
+8d3040: 1
+8d3002: 1
+8d2cc6: 1
+a08d01: 1
+8d2bc1: 1
+8d2d08: 1
+8d27c4: 1
+a09313: 1
+8becd8: 1
+8bd172: 1
+8d38c2: 1
+8d32c4: 1
+8d3240: 1
+8d3201: 1
+8d3189: 1
+4005d0: 1
+8bd285: 1
+8bf644: 1
+8d26c0: 1
+8bdcc6: 1
+8be39d: 1
+8bdbac: 1
+8bdc2e: 1
+8bf69d: 1
+8bea3c: 1
+8be965: 1
+8bf488: 1
+8d3680: 1
+8bdb82: 1
+8bd06e: 1
+8bec20: 1
+8d1742: 1
+8bd781: 1
+8d1581: 1
+8d14c9: 1
+8d3340: 1
+8bef37: 1
+8d1a01: 1
+8d1101: 1
+8d1041: 1
+8d0d83: 1
+8d0bc1: 1
+8d2445: 1
+8d0b42: 1
+a2c440: 1
+8d2b01: 1
+8d2547: 1
+a09799: 1
+8d2c86: 1
+a089c0: 1
+8d2580: 1
+8d33c2: 1
+a096c2: 1
+8bf808: 1
+8bd142: 1
+8d0440: 1
+8bd11e: 1
+8d2001: 1
+8d1d85: 1
+8d1c89: 1
+8cf7c0: 1
+8d1b01: 1
+8d1a48: 1
+8d1783: 1
+a088e4: 1
+8d2403: 1
+8d1d00: 1
+8cf441: 1
+8be76f: 1
+8d30c2: 1
+8d4241: 1
+a08a01: 1
+8d1404: 1
+8be344: 1
+a2c2a0: 1
+8d4207: 1
+8beafd: 1
+a08c71: 1
+a2c380: 1
+8d2681: 1
+8be4f2: 1
+a67cc2: 1
+a2c4c1: 1
+8be31b: 1
+a2c581: 1
+8d2b48: 1
+8be803: 1
+8d1b81: 1
+8beab8: 1
+a67cb0: 1
+a09000: 1
+8bebc4: 1
+8bd264: 1
+8cf806: 1
+8d1d41: 1
+8be308: 1
+8bdd7e: 1
+8bba80: 1
+a259b5: 1
+a09785: 1
+8d1702: 1
+8d0583: 1
+8bdbc4: 1
+8d0b08: 1
+8cf344: 1
+9ebcc3: 1
+8bd7ac: 1
+8d1143: 1
+8be477: 1
+8becc6: 1
+8d0744: 1
+9ecc40: 1
+a09706: 1
+a08740: 1
+8bbcff: 1
+8d1c46: 1
+8bed02: 1
+8cfd43: 1
+8d1384: 1
+a09398: 1
+a0927e: 1
+8d1082: 1
+8d3380: 1
+8bd3a2: 1
+8bdd9c: 1
+8d31c0: 1
+8beb28: 1
+8d0040: 1
+8bd987: 2
+8bdc29: 2
+8bdfb1: 2
+8bdfa7: 2
+8bdfd2: 2
+8bd8e4: 2
+8bdc08: 2
+8be785: 2
+8be6c6: 2
+8be542: 2
+8be3be: 2
+8be720: 2
+8bbc48: 2
+8bda40: 2
+8bd2c5: 2
+8be356: 2
+8d35c3: 2
+8be303: 2
+8bf387: 2
+8bdb40: 2
+8cf2c2: 2
+8bd0e2: 2
+8bd58d: 2
+8d0301: 2
+8d3141: 2
+8d3902: 2
+8bd243: 2
+4004a0: 2
+8bf301: 2
+8bd388: 2
+8bd006: 2
+8d1330: 2
+8bf561: 2
+8bede3: 2
+8bbcc2: 2
+8be9ce: 2
+8bf536: 2
+8be9fd: 2
+8be440: 2
+8bf081: 2
+8bea6e: 2
+8d3307: 2
+8bee7c: 2
+8cf300: 2
+8bd621: 2
+8d2300: 2
+a7f344: 2
+8bedbd: 2
+8bd5b7: 2
+8bd480: 2
+8bf3e6: 2
+8bd938: 3
+8bf435: 3
+8bd8ee: 3
+8bdc8e: 3
+8bd9da: 3
+8bf11a: 3
+8bd65c: 3
+8bedfb: 3
+8bed37: 3
+8bea5a: 3
+8bd609: 3
+8bd298: 3
+8be6f1: 3
+8be339: 3
+8bd5d5: 3
+8be385: 3
+8d1547: 3
+8be68e: 3
+8bdcbc: 3
+8be053: 3
+8be9c4: 3
+8bf689: 3
+8bd185: 3
+8bdc6d: 3
+8bd583: 3
+8bed41: 3
+8bf3f0: 3
+8bf73d: 3
+8be6dc: 4
+8bf496: 4
+a258eb: 4
+8bf0c9: 4
+8bed9c: 4
+8be0bb: 4
+8bea1b: 4
+8beaa2: 4
+8be0a6: 4
+8bee36: 4
+8beab2: 4
+8be003: 4
+8be3d9: 5
+8bd316: 5
+8bdd0f: 5
+8bdd24: 5
+8bf1c3: 5
+8bee4b: 5
+8bd9ef: 5
+8bf165: 5
+8bf47e: 5
+8bd671: 5
+8be77f: 5
+8be3ef: 5
+8bf17a: 5
+8be697: 6
+8bf4de: 6
+8bd305: 6
+8be684: 6
+8bd24d: 6
+8beb8b: 7
+8bf256: 7
+8bef01: 8
+8bdabb: 8
+8be769: 8
+8be4d2: 9
+8bbe3e: 9
+8bde06: 10
+8d00bf: 10
+8be84a: 11
+8bd083: 11
+8be187: 11
+8bf4c9: 11
+8bd73b: 12
+a259ce: 13
+8bd400: 13
+a25992: 14
+a259a4: 70
+8bd7e0: 148
+8bec25: 153
+8bdea8: 154
+8bd147: 154
+8be573: 156
+8bdb45: 156
+8be8db: 158
+8bd485: 160
+8be209: 169
+8bf2eb: 171
+8bef94: 172
+8bee5f: 219
+8beac7: 228
+8be403: 232
+8bf18e: 234
+8be794: 236
+8be01a: 254
+8bd5e4: 256
+8bf4f2: 268
+8bedb3: 269
+8be6eb: 271
+8be348: 271
+8bda03: 273
+8bf445: 273
+8bf0e1: 282
+8bdd38: 290
+8bd94f: 291
+8bdc84: 297
+8be0cf: 302
+8bea32: 302
+8bf4b1: 334
+8bf55b: 362
+8bbbb7: 366
+8bbb72: 366
+8bbb89: 371
+8bbba0: 372
+8bf58a: 383
+8bf145: 389
+8bd2ad: 399
+8bf50a: 402
+8be750: 416
+8bea81: 417
+8bee16: 420
+8be086: 431
+8bf19e: 433
+8bf59e: 437
+8bbbfc: 438
+8bbb4c: 440
+8be3b9: 441
+8bdcef: 448
+8bbbce: 455
+8bbcd9: 457
+8bd681: 458
+8bead7: 462
+8bd326: 464
+8bd9ba: 477
+8bee77: 500
+8be41b: 515
+8bd2f2: 522
+8bf57b: 543
+8bbc13: 585
+8bd63c: 588
+8bda17: 607
+8be7ac: 613
+8bdd50: 629
+8be0e7: 667
+8bbbe5: 678
+8bbc2a: 680
+8bd695: 696
+8bf5b8: 706
+8bf5ae: 719
+8bd33a: 720
+8bf66a: 795
+8bf67e: 886
+8bf68e: 908
+8bf63e: 978
+8bf6da: 1023
+8bf698: 1057
+8bf5f4: 1418
+8bf65b: 1453
+8bf6a7: 1569
+8bf5ca: 1580
+8bf6c5: 2198
+8bf6d5: 2355
+8bf5de: 2439
+8bf5ef: 2937
+
+RAW hits: 428315
+Loads Generated: 77835659
+Loads sent to L1D: 77407344
+Stores Generated: 16016275
+Stores sent to L1D: 16016277
+Major fault: 0 Minor fault: 8463
+Allocated PAGES: 8463
+Total Load insts: 107884843
+Total Non-spec loads: 7370791
+Percentage of speculative loads: 93.1679
+L1D response latency: 16.5424 cycles
+Load retirement latency: 75.5147 cycles
+
+------------------
+Depth Distribution
+------------------
+depth 0: 1029140
+depth 1: 2012806
+depth 2: 6338024
+depth 3: 7020444
+depth 4: 430699
+depth 5: 865
+depth 6: 4
+depth 7: 0
+depth 8: 0
+depth 9: 0
+depth 10: 0
+depth 11: 0
+depth 12: 0
+depth 13: 0
+depth 14: 0
+depth 15: 0
+depth 16: 0
+depth 17: 0
+depth 18: 0
+depth 19: 0
+depth 20: 0
+depth 21: 0
+depth 22: 0
+depth 23: 0
+depth 24: 0
+depth 25: 0
+depth 26: 0
+depth 27: 0
+depth 28: 0
+depth 29: 0
+Total: 16831982
+------------------
+ST read accesses: 13459162
+ST write accesses: 6449
+PT read accesses: 230585494
+PT write accesses: 15962007
+FILTER read accesses: 65224870
+FILTER write accesses: 19209613
+GHR read accesses: 67582712
+GHR write accesses: 9821081
+PERC read accesses: 1571757165
+PERC write accesses: 53384645
+GHR counter read accesses: 26931222
+GHR counter write accesses: 28768100
+GHR ip read accesses: 76383063
+GHR ip write accesses: 53862444
+ST tag read accesses: 5177346300
+ST tag write accesses: 1069394232
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:     288907  ROW_BUFFER_MISS:     241975
+ DBUS_CONGESTED:        780
+ WQ ROW_BUFFER_HIT:      38773  ROW_BUFFER_MISS:      76820  FULL:          0
+
+ AVG_CONGESTED_CYCLE: 4
+ All warmup complete: 2
+Channel 0 Bank busy for read cycles: 0
+Channel 0 Bank busy for write cycles: 0
+Channel 0
+Rank 0
+0banks busy for read cycles: 178092447
+0banks busy for write cycles: 54043
+1banks busy for read cycles: 20474607
+1banks busy for write cycles: 7000125
+2banks busy for read cycles: 5940897
+2banks busy for write cycles: 2099001
+3banks busy for read cycles: 2570422
+3banks busy for write cycles: 970914
+4banks busy for read cycles: 1165237
+4banks busy for write cycles: 504513
+5banks busy for read cycles: 516213
+5banks busy for write cycles: 260432
+6banks busy for read cycles: 254820
+6banks busy for write cycles: 132401
+7banks busy for read cycles: 161089
+7banks busy for write cycles: 55661
+8banks busy for read cycles: 98151
+8banks busy for write cycles: 25016
+
+CPU 0 Branch Prediction Accuracy: 99.9869% MPKI: 0.001165 Average ROB Occupancy at Mispredict: 28.3605
+Branch types
+NOT_BRANCH: 198225696 99.1128%
+BRANCH_DIRECT_JUMP: 217104 0.108552%
+BRANCH_INDIRECT: 36158 0.018079%
+BRANCH_CONDITIONAL: 1086728 0.543364%
+BRANCH_DIRECT_CALL: 216983 0.108491%
+BRANCH_INDIRECT_CALL: 0 0%
+BRANCH_RETURN: 216983 0.108491%
+BRANCH_OTHER: 0 0%
+
+DRAM PAGES: 1048576
+Allocated PAGES: 8463

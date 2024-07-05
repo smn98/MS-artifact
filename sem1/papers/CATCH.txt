@@ -1,0 +1,26 @@
+-increasing L2 is not efficient
+-load accesses that lie on critical path of exectution can effect the core perforrmance
+
+aim : to convert non-critical L2 hits into LLC hits
+
+buzzwords:
+	code cache
+	front end of a processor
+	oracle
+
+
+method: 
+	find critical load instructions which hit L2 or LLC.
+	how to find - using data dependency graph	
+	instructions marked as critical are prefethced into L1.
+	this prefetch must be done just in time to avoid L1 thrashing
+
+	TACT cross:
+		-trigger cache tracks the last 64 pages, indexed by the page address. Each entry contains the first 4 load PCs that access this page.
+		-during training, critical target PCs, look-up this trigger cache with their page address and gets 4 candidates for trigger PCs.
+		-
+
+	TACT feeder:
+		-using a harddware mechanism we find out the data dependencies between target pc and trigger pc
+		-in true sense we find the PC of the youngest load which updates the source of the target load.
+	doubt: what is being prefetched, data or address?

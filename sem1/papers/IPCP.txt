@@ -1,0 +1,34 @@
+instruction pointer classification
+l1 prefetcher better performance than l2 prefetchers - *coherence issues
+state of art prefetchers not a good fit for l1, as they are global and huge size
+not a global pattern recognizer but categorizes instructions based on 
+
+3 classes of instruction pointer - simple stride, complex stride
+
+prefetchers are used both at l1 and l2.
+degree of prefetching is more at the l2 as it has more resources.
+No prefetching is done at the llc level and the same prefetch requests by l1 and l2 are brought into llc
+l2 prefetcher does not undergo any training. the trained metadata is passed to l2 by l1.
+no cplx class prefetching in l2.
+
+
+questions:
+
+sim points
+l2 perfetching
+deep prefetching
+
+
+improvement: 
+
+-CPLX takes more time to train
+-long term access patterns not identified by 
+-prefetch distance
+-irregular trends
+-overprediction
+-temporal prefetching
+-pq and mshr high requirements
+-common core global prefetcher in case of multihtreaded application
+-metadata with additional hardware to somehow predict more correctly at the L2.
+
+

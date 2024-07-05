@@ -1,0 +1,11 @@
+cold pages - when a page is accessed first after a long time(already learned)
+
+Berti works in 2 modes
+	1. Berti mode : uses the learned best offset to prefetch 
+
+	2. Burst mode: is used on cold pages, i.e., when a page is accessed after a long time.
+		        the thing it does is, it prefetches all the blocks between the first accessed and the best delta of the page
+
+*potential misses - misses if the prefetcher would not have been active, which includes actual misses and prefetch hits
+
+where is the first accessed offset stored. How is the table formed

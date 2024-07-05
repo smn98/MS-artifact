@@ -1,0 +1,18 @@
+types of prefetcher:
+	next line prefetcher - prefetches the line X+1 when X is accessed
+	stream prefetcher - prefetches a stream(next n lines) when a stream is identified(meaning consicutive lines are accessed)
+	offset prefetcher - prefetches line X+D when X is accessed. main concern is choosing the best D.
+
+store Y-O in RR when L2 is filled with a prefetch line Y. Here O is the current offset(learned offset). Y-O therefore is the address that generated the prefetch.
+
+
+Say X is a prefetch hit in L2 or L2 miss.
+		**why only prefetch hit or L2 miss?
+	We use X for learning of the best offset. In each of these accesses the offset list is searched for X-On, and if found the confidence is incremented.
+	for the next access On+1 is used. On is wrapped around after reaching maximum. 
+	If a particular On reaches a threshold confidence, it is selected as the best offset and is used for prefetching.
+
+	this part is a bit tricky, 
+	X is the miss or prefetch hit. Say the best offset now is O. X+O is prefetched next. Thus the triggering line for X+O is X. So X is stored in the left bank of the RR
+	In a sense X and Y-O are the same thing. Just think carefully, Y is the prefetched line i.e., X + O. Now do the math.
+	** make it more clear ask sir.
